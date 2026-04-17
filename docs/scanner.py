@@ -71,11 +71,11 @@ def fmt(v):
 def send_error_alert(token, chat_id, error_msg):
     if not token or not chat_id:
         return
-    msg = f"🚨 *Kronos 오류 발생*\n```\n{error_msg[:500]}\n```\n{utc_now_str()}"
+    msg = f"Kronos 오류\n{error_msg[:300]}\n{utc_now_str()}"
     try:
         requests.get(
             f"https://api.telegram.org/bot{token}/sendMessage",
-            params={"chat_id": chat_id, "text": msg, "parse_mode": "Markdown"},
+            params={"chat_id": chat_id, "text": msg},
             timeout=10,
         )
     except Exception as e:
