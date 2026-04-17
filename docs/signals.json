@@ -553,10 +553,10 @@
     "tp_pct": 13.49,
     "atr": 0.000401,
     "rr": 3.0,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 0.04197,
+    "result_pct": -4.7,
+    "result_time": "2026-04-17 01:42 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
