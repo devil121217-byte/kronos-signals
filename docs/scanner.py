@@ -75,16 +75,21 @@ def send_error_alert(token, chat_id, error_msg):
     except Exception as e:
         logger.error(f"오류 알람 전송 실패: {e}")
 
+def fmt(v):
+    if v is None: return "-"
+    s = f"{float(v):.10f}".rstrip("0").rstrip(".")
+    return s
+
 def send_telegram(token, chat_id, signal, is_result=False):
     if not token or not chat_id:
         return
     tf = signal.get("timeframe", "1h")
     sym = signal["symbol"]
     direct = signal["direction"]
-    entry = str(signal["entry"])
-    sl = str(signal["stop_loss"])
-    tp = str(signal["take_profit"])
-    be = str(signal["be_target"])
+    entry = fmt(signal["entry"])
+    sl = fmt(signal["stop_loss"])
+    tp = fmt(signal["take_profit"])
+    be = fmt(signal["be_target"])
     rr = str(signal["rr"])
     slp = str(signal["sl_pct"])
     tpp = str(signal["tp_pct"])
@@ -94,7 +99,7 @@ def send_telegram(token, chat_id, signal, is_result=False):
         icons = {"WIN": "🏆", "LOSS": "💀", "EXPIRED": "⏰"}
         icon = icons.get(status, "❓")
         pct = signal.get("result_pct")
-        rp = str(signal.get("result_price"))
+        rp = fmt(signal.get("result_price"))
         rt = str(signal.get("result_time"))
         pct_str = ""
         if pct is not None:
