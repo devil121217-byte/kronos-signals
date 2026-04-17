@@ -1338,5 +1338,26 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-17 01:04 UTC"
+  },
+  {
+    "id": "BERAUSDT_1h_1776399581",
+    "symbol": "BERA/USDT",
+    "raw_symbol": "BERAUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.456,
+    "stop_loss": 0.407,
+    "take_profit": 0.603,
+    "be_target": 0.5295,
+    "sl_pct": 10.75,
+    "tp_pct": 32.24,
+    "atr": 0.007357,
+    "rr": 3.0,
+    "quote_volume": 5524838.697597,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-17 04:19 UTC"
   }
 ]
