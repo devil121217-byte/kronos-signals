@@ -24,9 +24,10 @@ jobs:
 
       - name: 스캐너 실행
         env:
+          PYTHONUNBUFFERED: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python docs/scanner.py
+        run: python -u docs/scanner.py
 
       - name: 시그널 저장
         run: |
