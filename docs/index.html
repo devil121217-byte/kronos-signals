@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kronos 시그널 대시보드</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #0d1117; color: #e6edf3; margin: 0; padding: 10px; }
+  h1 { text-align: center; color: #58a6ff; font-size: 1.4em; }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 10px 0; }
+  .stat-box { background: #161b22; border-radius: 8px; padding: 12px 20px; text-align: center; min-width: 80px; }
+  .stat-box .num { font-size: 1.8em; font-weight: bold; }
+  .stat-box .label { font-size: 0.75em; color: #8b949e; }
+  .open { color: #58a6ff; }
+  .win { color: #3fb950; }
+  .loss { color: #f85149; }
+  .expired { color: #d29922; }
+  .long { color: #3fb950; }
+  .short { color: #f85149; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.78em; margin-top: 10px; }
+  th { background: #161b22; color: #8b949e; padding: 8px 4px; text-align: center; position: sticky; top: 0; }
+  td { padding: 7px 4px; text-align: center; border-bottom: 1px solid #21262d; }
+  tr:hover { background: #161b22; }
+  .badge { padding: 2px 8px; border-radius: 10px; font-size: 0.85em; font-weight: bold; }
+  .badge-open { background: #1f4e8c; color: #58a6ff; }
+  .badge-win { background: #1a3d2b; color: #3fb950; }
+  .badge-loss { background: #3d1a1a; color: #f85149; }
+  .badge-expired { background: #3d2f0a; color: #d29922; }
+  .badge-long { background: #1a3d2b; color: #3fb950; }
+  .badge-short { background: #3d1a1a; color: #f85149; }
+  .refresh-btn { display: block; margin: 10px auto; padding: 8px 24px; background: #238636; color: white; border: none; border-radius: 6px; font-size: 1em; cursor: pointer; }
+  .updated { text-align: center; color: #8b949e; font-size: 0.75em; margin-top: 4px; }
+  .filter-bar { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 8px 0; }
+  .filter-btn { padding: 4px 14px; border-radius: 12px; border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer; font-size: 0.85em; }
+  .filter-btn.active { background: #58a6ff; color: #0d1117; border-color: #58a6ff; }
+</style>
+</head>
+<body>
+<h1>📡 Kronos 시그널 대시보드</h1>
+<button class="refresh-btn" onclick="loadSignals()">🔄 새로고침</button>
+<div class="stats" id="stats"></div>
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="setFilter('ALL')">전체</button>
+  <button class="filter-btn" onclick="setFilter('OPEN')">OPEN</button>
+  <button class="filter-btn" onclick="setFilter('WIN')">WIN</button>
+  <button class="filter-btn" onclick="setFilter('LOSS')">LOSS</button>
+  <button class="filter-btn" onclick="setFilter('EXPIRED')">EXPIRED</button>
+  <button class="filter-btn" onclick="setFilter('LONG')">LONG</button>
+  <button class="filter-btn" onclick="setFilter('SHORT')">SHORT</button>
+</div>
+<div class="updated" id="updated"></div>
+<table>
+  <thead>
+    <tr>
+      <th>종목</th>
+      <th>방향</th>
+      <th>TF</th>
+      <th>진입</th>
+      <th>손절</th>
+      <th>목표</th>
+      <th>상태</th>
+      <th>손익</th>
+      <th>시간</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+<script>
+let allSignals = [];
+let currentFilter = 'ALL';
+
+function setFilter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  renderTable();
+}
+
+function statusBadge(s) {
+  const map = { OPEN:'badge-open', WIN:'badge-win', LOSS:'badge-loss', EXPIRED:'badge-expired' };
+  return `<span class="badge ${map[s]||''}">${s}</span>`;
+}
+
+function dirBadge(d) {
+  return `<span class="badge ${d==='LONG'?'badge-long':'badge-short'}">${d}</span>`;
+}
+
+function renderTable() {
+  const filtered = allSignals.filter(s => {
+    if (currentFilter === 'ALL') return true;
+    if (['OPEN','WIN','LOSS','EXPIRED'].includes(currentFilter)) return s.status === currentFilter;
+    if (['LONG','SHORT'].includes(currentFilter)) return s.direction === currentFilter;
+    return true;
+  });
+
+  const tbody = document.getElementById('tbody');
+  if (filtered.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="9" style="color:#8b949e;padding:20px">시그널 없음</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = [...filtered].reverse().map(s => {
+    const pct = s.result_pct !== null && s.result_pct !== undefined
+      ? `<span style="color:${s.result_pct>=0?'#3fb950':'#f85149'}">${s.result_pct>=0?'+':''}${s.result_pct}%</span>`
+      : '-';
+    const time = (s.time||'').replace(' UTC','');
+    return `<tr>
+      <td style="font-weight:bold">${s.symbol||''}</td>
+      <td>${dirBadge(s.direction)}</td>
+      <td>${s.timeframe||''}</td>
+      <td>${s.entry||''}</td>
+      <td style="color:#f85149">${s.stop_loss||''}</td>
+      <td style="color:#3fb950">${s.take_profit||''}</td>
+      <td>${statusBadge(s.status)}</td>
+      <td>${pct}</td>
+      <td style="color:#8b949e;font-size:0.85em">${time}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderStats(signals) {
+  const total = signals.length;
+  const open = signals.filter(s=>s.status==='OPEN').length;
+  const win = signals.filter(s=>s.status==='WIN').length;
+  const loss = signals.filter(s=>s.status==='LOSS').length;
+  const expired = signals.filter(s=>s.status==='EXPIRED').length;
+  const long = signals.filter(s=>s.direction==='LONG').length;
+  const short = signals.filter(s=>s.direction==='SHORT').length;
+  const closed = win + loss;
+  const wr = closed > 0 ? Math.round(win/closed*100) : 0;
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-box"><div class="num">${total}</div><div class="label">전체</div></div>
+    <div class="stat-box"><div class="num open">${open}</div><div class="label">OPEN</div></div>
+    <div class="stat-box"><div class="num win">${win}</div><div class="label">WIN</div></div>
+    <div class="stat-box"><div class="num loss">${loss}</div><div class="label">LOSS</div></div>
+    <div class="stat-box"><div class="num expired">${expired}</div><div class="label">EXPIRED</div></div>
+    <div class="stat-box"><div class="num long">${long}</div><div class="label">LONG</div></div>
+    <div class="stat-box"><div class="num short">${short}</div><div class="label">SHORT</div></div>
+    <div class="stat-box"><div class="num" style="color:#d29922">${wr}%</div><div class="label">승률</div></div>
+  `;
+}
+
+function loadSignals() {
+  fetch('signals.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      allSignals = data;
+      renderStats(data);
+      renderTable();
+      document.getElementById('updated').textContent = '업데이트: ' + new Date().toLocaleString('ko-KR');
+    })
+    .catch(e => {
+      document.getElementById('tbody').innerHTML = '<tr><td colspan="9" style="color:#f85149">signals.json 로드 실패: ' + e + '</td></tr>';
+    });
+}
+
+loadSignals();
+setInterval(loadSignals, 60000);
+</script>
+</body>
+</html>
