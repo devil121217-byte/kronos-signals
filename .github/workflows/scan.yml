@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: 패키지 설치
-        run: pip install pandas requests
+        run: pip install ccxt pandas requests
 
       - name: 스캐너 실행
         env:
