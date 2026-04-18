@@ -138,16 +138,13 @@ def send_telegram(token, chat_id, signal, is_result=False):
         dirlbl = "🟢 LONG" if direct == "LONG" else "🔴 SHORT"
         qv = signal.get("quote_volume", 0)
         qv_str = f"{qv/1e6:.1f}M" if qv >= 1e6 else f"{qv/1e3:.0f}K"
-        conds = signal.get("conditions", [])
-        cond_str = " | ".join(conds) if conds else ""
-        msg = (f"{icon} *{sym}* [1h→5m] {dirlbl}\n"
+        msg = (f"{icon} *{sym}* {dirlbl}\n"
                f"진입: `{entry}`\n"
                f"손절: `{sl}` (-{slp}%)\n"
                f"TP1: `{tp1}` (+{tp1p}%) RR 1:2\n"
                f"TP2: `{tp2}` (+{tp2p}%)\n"
                f"본절: `{be}`\n"
-               f"거래대금: {qv_str}\n"
-               f"조건: {cond_str}\n{ts}")
+               f"거래대금: {qv_str}\n{ts}")
     try:
         requests.get(
             f"https://api.telegram.org/bot{token}/sendMessage",
