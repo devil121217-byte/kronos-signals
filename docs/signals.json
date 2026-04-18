@@ -19,5 +19,26 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-18 12:28 UTC"
+  },
+  {
+    "id": "SOLVUSDT_1h_1776515675",
+    "symbol": "SOLV/USDT",
+    "raw_symbol": "SOLVUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 0.00435,
+    "stop_loss": 0.00589,
+    "take_profit": -0.00027,
+    "be_target": 0.00204,
+    "sl_pct": 35.4,
+    "tp_pct": 106.21,
+    "atr": 0.000294,
+    "rr": 3.0,
+    "quote_volume": 9151945.2912,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-18 12:34 UTC"
   }
 ]
