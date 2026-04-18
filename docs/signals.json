@@ -136,7 +136,7 @@
     "status": "LOSS",
     "result_price": 0.2767,
     "result_pct": -12.99,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -376,7 +376,7 @@
     "status": "LOSS",
     "result_price": 0.1207,
     "result_pct": -13.29,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -494,9 +494,9 @@
     "atr": 0.011936,
     "rr": 3.0,
     "status": "LOSS",
-    "result_price": 0.4855,
-    "result_pct": -51.39,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 0.4841,
+    "result_pct": -50.95,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -534,9 +534,9 @@
     "atr": 0.054286,
     "rr": 3.0,
     "status": "LOSS",
-    "result_price": 2.02,
-    "result_pct": -12.17,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 2.03,
+    "result_pct": -11.74,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -574,9 +574,9 @@
     "atr": 0.000786,
     "rr": 3.0,
     "status": "WIN",
-    "result_price": 0.1209,
-    "result_pct": 14.49,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 0.1212,
+    "result_pct": 14.77,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -596,7 +596,7 @@
     "status": "LOSS",
     "result_price": 0.2767,
     "result_pct": -13.1,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -614,9 +614,9 @@
     "atr": 0.008786,
     "rr": 3.0,
     "status": "LOSS",
-    "result_price": 0.954,
-    "result_pct": -4.89,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 0.955,
+    "result_pct": -4.79,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -696,7 +696,7 @@
     "status": "LOSS",
     "result_price": 0.1207,
     "result_pct": -13.29,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:22 UTC"
   },
   {
@@ -834,9 +834,9 @@
     "atr": 8.072857,
     "rr": 3.0,
     "status": "LOSS",
-    "result_price": 2357.15,
-    "result_pct": -1.79,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 2358.25,
+    "result_pct": -1.84,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 13:53 UTC"
   },
   {
@@ -1114,9 +1114,9 @@
     "atr": 0.003393,
     "rr": 3.0,
     "status": "LOSS",
-    "result_price": 0.2255,
-    "result_pct": -4.81,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_price": 0.2257,
+    "result_pct": -4.73,
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-16 16:07 UTC"
   },
   {
@@ -1316,7 +1316,7 @@
     "status": "LOSS",
     "result_price": 1.393,
     "result_pct": -3.8,
-    "result_time": "2026-04-18 12:23 UTC",
+    "result_time": "2026-04-18 12:24 UTC",
     "time": "2026-04-17 00:25 UTC"
   },
   {
@@ -1361,20 +1361,20 @@
     "time": "2026-04-17 04:19 UTC"
   },
   {
-    "id": "API3USDT_1h_1776515049",
+    "id": "API3USDT_1h_1776515075",
     "symbol": "API3/USDT",
     "raw_symbol": "API3USDT",
     "timeframe": "1h",
     "direction": "LONG",
-    "entry": 0.4363,
+    "entry": 0.4327,
     "stop_loss": 0.3083,
-    "take_profit": 0.8203,
-    "be_target": 0.6283,
-    "sl_pct": 29.34,
-    "tp_pct": 88.01,
+    "take_profit": 0.8059,
+    "be_target": 0.6193,
+    "sl_pct": 28.75,
+    "tp_pct": 86.25,
     "atr": 0.014907,
     "rr": 3.0,
-    "quote_volume": 10037941.170969,
+    "quote_volume": 10090527.489174,
     "status": "OPEN",
     "result_price": null,
     "result_pct": null,
