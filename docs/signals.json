@@ -291,10 +291,10 @@
     ],
     "fvg_low": 0.0146,
     "fvg_high": 0.015,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "TP1",
+    "result_price": 0.0148,
+    "result_pct": 1.37,
+    "result_time": "2026-04-18 15:41 UTC",
     "time": "2026-04-18 15:32 UTC"
   }
 ]
