@@ -1004,5 +1004,37 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-19 01:44 UTC"
+  },
+  {
+    "id": "ENJUSDT_1h5m_1776563370",
+    "symbol": "ENJ/USDT",
+    "raw_symbol": "ENJUSDT",
+    "timeframe": "1h/5m",
+    "direction": "LONG",
+    "entry": 0.0564,
+    "stop_loss": 0.055642,
+    "take_profit1": 0.057916,
+    "take_profit2": 0.06292,
+    "take_profit": 0.057916,
+    "be_target": 0.057158,
+    "sl_pct": 1.34,
+    "tp1_pct": 2.69,
+    "tp2_pct": 11.56,
+    "tp_pct": 2.69,
+    "atr": 0.001456,
+    "rr": 2.0,
+    "quote_volume": 14023661.683237,
+    "conditions": [
+      "OTE",
+      "OB",
+      "Vol"
+    ],
+    "fvg_low": 0.05637,
+    "fvg_high": 0.05701,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 01:49 UTC"
   }
 ]
