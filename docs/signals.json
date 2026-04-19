@@ -1100,5 +1100,37 @@
     "result_pct": -0.68,
     "result_time": "2026-04-19 07:44 UTC",
     "time": "2026-04-19 07:39 UTC"
+  },
+  {
+    "id": "ZROUSDT_1h5m_1776584991",
+    "symbol": "ZRO/USDT",
+    "raw_symbol": "ZROUSDT",
+    "timeframe": "1h/5m",
+    "direction": "SHORT",
+    "entry": 1.596,
+    "stop_loss": 1.606036,
+    "take_profit1": 1.575929,
+    "take_profit2": 1.406,
+    "take_profit": 1.575929,
+    "be_target": 1.585964,
+    "sl_pct": 0.63,
+    "tp1_pct": 1.26,
+    "tp2_pct": 11.9,
+    "tp_pct": 1.26,
+    "atr": 0.016071,
+    "rr": 2.0,
+    "quote_volume": 15194465.67084,
+    "conditions": [
+      "OB",
+      "LiqSweep",
+      "Vol"
+    ],
+    "fvg_low": 1.566,
+    "fvg_high": 1.598,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 07:49 UTC"
   }
 ]
