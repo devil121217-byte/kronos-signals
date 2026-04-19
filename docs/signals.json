@@ -1038,7 +1038,7 @@
     "time": "2026-04-19 01:49 UTC"
   },
   {
-    "id": "ASTERUSDT_1h5m_1776580783",
+    "id": "ASTERUSDT_1h5m_1776580793",
     "symbol": "ASTER/USDT",
     "raw_symbol": "ASTERUSDT",
     "timeframe": "1h/5m",
@@ -1055,7 +1055,7 @@
     "tp_pct": 0.48,
     "atr": 0.001214,
     "rr": 2.0,
-    "quote_volume": 12864061.21151,
+    "quote_volume": 12874533.22295,
     "conditions": [
       "OTE",
       "OB",
