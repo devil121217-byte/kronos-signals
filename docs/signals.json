@@ -1287,10 +1287,10 @@
     ],
     "fvg_low": 0.134,
     "fvg_high": 0.137,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "TP1",
+    "result_price": 0.141,
+    "result_pct": 5.22,
+    "result_time": "2026-04-19 12:09 UTC",
     "time": "2026-04-19 12:04 UTC"
   }
 ]
