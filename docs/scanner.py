@@ -60,7 +60,7 @@ def save_signals(signals):
 def send_telegram(token, chat_id, signal, is_result: bool = False):
     """
     텔레그램 메시지 포맷:
-    - 신규 시그널: 네가 예시로 준 '알트종목 시그널 공유' 규격
+    - 신규 시그널: '알트종목 시그널 공유' 규격
     - 결과 시그널: 🎯/🏆/💀/⏰ 포맷
     """
     if not token or not chat_id:
@@ -109,7 +109,7 @@ def send_telegram(token, chat_id, signal, is_result: bool = False):
             f"{ts}"
         )
     else:
-        # 신규 시그널 – 네가 준 규격 그대로
+        # 신규 시그널 – 네가 준 규격
         rocket = "🚀"
 
         def pct_str(v):
@@ -235,7 +235,7 @@ def fetch_last_prices(symbols):
     }
 
 
-def simple_mss(df: pd.DataFrame, direction: str, bars: int = 10) -> bool:
+def simple_mss(df: pd.DataFrame, direction: str, bars: int = 5) -> bool:
     """
     간단 MSS 필터:
     - LONG: 최근 bars봉 직전 구조의 high를 현재 종가가 돌파
@@ -259,7 +259,7 @@ def scan_symbol(symbol, quote_volume=0):
     """
     1h 데이터 기준:
     - EMA200으로 LONG/SHORT 결정
-    - 최근 10봉 MSS 필터(simple_mss) 통과
+    - 최근 5봉 MSS 필터(simple_mss) 통과
     - 최근 20봉 high/low + ATR로 SL/TP 계산
     """
     try:
@@ -278,7 +278,7 @@ def scan_symbol(symbol, quote_volume=0):
         direction = "LONG" if price > float(ema200.iloc[-1]) else "SHORT"
 
         # ── ICT 구조 필터: 간단 MSS 느낌 ──
-        if not simple_mss(df, direction, bars=10):
+        if not simple_mss(df, direction, bars=5):
             return None
 
         if direction == "LONG":
