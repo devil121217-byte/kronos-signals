@@ -1127,10 +1127,10 @@
     ],
     "fvg_low": 1.566,
     "fvg_high": 1.598,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 1.614,
+    "result_pct": -1.13,
+    "result_time": "2026-04-19 07:55 UTC",
     "time": "2026-04-19 07:49 UTC"
   }
 ]
