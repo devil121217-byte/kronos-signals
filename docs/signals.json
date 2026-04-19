@@ -1000,8 +1000,8 @@
     "fvg_low": 0.00318,
     "fvg_high": 0.00326,
     "status": "TP1",
-    "result_price": 0.003,
-    "result_pct": 5.96,
+    "result_price": 0.00301,
+    "result_pct": 5.64,
     "result_time": "2026-04-19 04:41 UTC",
     "time": "2026-04-19 01:44 UTC"
   },
@@ -1032,8 +1032,8 @@
     "fvg_low": 0.05637,
     "fvg_high": 0.05701,
     "status": "TP1",
-    "result_price": 0.05996,
-    "result_pct": 6.31,
+    "result_price": 0.0598,
+    "result_pct": 6.03,
     "result_time": "2026-04-19 04:41 UTC",
     "time": "2026-04-19 01:49 UTC"
   }
