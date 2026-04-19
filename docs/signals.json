@@ -972,5 +972,37 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-19 00:33 UTC"
+  },
+  {
+    "id": "NOMUSDT_1h5m_1776563041",
+    "symbol": "NOM/USDT",
+    "raw_symbol": "NOMUSDT",
+    "timeframe": "1h/5m",
+    "direction": "SHORT",
+    "entry": 0.00319,
+    "stop_loss": 0.003279,
+    "take_profit1": 0.003012,
+    "take_profit2": 0.002982,
+    "take_profit": 0.003012,
+    "be_target": 0.003101,
+    "sl_pct": 2.79,
+    "tp1_pct": 5.58,
+    "tp2_pct": 6.52,
+    "tp_pct": 5.58,
+    "atr": 3.8e-05,
+    "rr": 2.0,
+    "quote_volume": 16096638.51165,
+    "conditions": [
+      "OB",
+      "LiqSweep",
+      "Vol"
+    ],
+    "fvg_low": 0.00318,
+    "fvg_high": 0.00326,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 01:44 UTC"
   }
 ]
