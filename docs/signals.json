@@ -1132,5 +1132,37 @@
     "result_pct": -1.13,
     "result_time": "2026-04-19 07:55 UTC",
     "time": "2026-04-19 07:49 UTC"
+  },
+  {
+    "id": "DASHUSDT_1h5m_1776592757",
+    "symbol": "DASH/USDT",
+    "raw_symbol": "DASHUSDT",
+    "timeframe": "1h/5m",
+    "direction": "SHORT",
+    "entry": 34.04,
+    "stop_loss": 34.187857,
+    "take_profit1": 33.744286,
+    "take_profit2": 33.44,
+    "take_profit": 33.744286,
+    "be_target": 33.892143,
+    "sl_pct": 0.43,
+    "tp1_pct": 0.87,
+    "tp2_pct": 1.76,
+    "tp_pct": 0.87,
+    "atr": 0.095714,
+    "rr": 2.0,
+    "quote_volume": 6780383.30827,
+    "conditions": [
+      "OB",
+      "LiqSweep",
+      "Vol"
+    ],
+    "fvg_low": 33.95,
+    "fvg_high": 34.14,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 09:59 UTC"
   }
 ]
