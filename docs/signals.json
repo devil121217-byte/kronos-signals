@@ -908,5 +908,37 @@
     "result_pct": -1.15,
     "result_time": "2026-04-19 00:11 UTC",
     "time": "2026-04-19 00:02 UTC"
+  },
+  {
+    "id": "ARBUSDT_1h5m_1776557912",
+    "symbol": "ARB/USDT",
+    "raw_symbol": "ARBUSDT",
+    "timeframe": "1h/5m",
+    "direction": "LONG",
+    "entry": 0.1282,
+    "stop_loss": 0.127886,
+    "take_profit1": 0.128829,
+    "take_profit2": 0.1345,
+    "take_profit": 0.128829,
+    "be_target": 0.128514,
+    "sl_pct": 0.25,
+    "tp1_pct": 0.49,
+    "tp2_pct": 4.91,
+    "tp_pct": 0.49,
+    "atr": 0.000429,
+    "rr": 2.0,
+    "quote_volume": 8710739.46348,
+    "conditions": [
+      "OTE",
+      "OB",
+      "Vol"
+    ],
+    "fvg_low": 0.1281,
+    "fvg_high": 0.1283,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 00:18 UTC"
   }
 ]
