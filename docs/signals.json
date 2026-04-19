@@ -1192,8 +1192,8 @@
     "fvg_low": 0.0306,
     "fvg_high": 0.0308,
     "status": "LOSS",
-    "result_price": 0.0302,
-    "result_pct": -1.31,
+    "result_price": 0.0303,
+    "result_pct": -0.98,
     "result_time": "2026-04-19 10:15 UTC",
     "time": "2026-04-19 10:04 UTC"
   }
