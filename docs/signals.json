@@ -1070,7 +1070,7 @@
     "time": "2026-04-19 06:39 UTC"
   },
   {
-    "id": "MLNUSDT_1h5m_1776584347",
+    "id": "MLNUSDT_1h5m_1776584356",
     "symbol": "MLN/USDT",
     "raw_symbol": "MLNUSDT",
     "timeframe": "1h/5m",
@@ -1087,7 +1087,7 @@
     "tp_pct": 0.82,
     "atr": 0.024286,
     "rr": 2.0,
-    "quote_volume": 6910906.35606,
+    "quote_volume": 6910410.8792,
     "conditions": [
       "OB",
       "LiqSweep",
