@@ -1262,7 +1262,7 @@
     "time": "2026-04-19 11:09 UTC"
   },
   {
-    "id": "PHBUSDT_1h5m_1776600219",
+    "id": "PHBUSDT_1h5m_1776600241",
     "symbol": "PHB/USDT",
     "raw_symbol": "PHBUSDT",
     "timeframe": "1h/5m",
@@ -1279,7 +1279,7 @@
     "tp_pct": 2.24,
     "atr": 0.003,
     "rr": 2.0,
-    "quote_volume": 24060834.5946,
+    "quote_volume": 24062115.8714,
     "conditions": [
       "MSS",
       "OB",
@@ -1291,6 +1291,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-04-19 12:03 UTC"
+    "time": "2026-04-19 12:04 UTC"
   }
 ]
