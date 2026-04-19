@@ -1198,7 +1198,7 @@
     "time": "2026-04-19 10:04 UTC"
   },
   {
-    "id": "GTCUSDT_1h5m_1776596647",
+    "id": "GTCUSDT_1h5m_1776596663",
     "symbol": "GTC/USDT",
     "raw_symbol": "GTCUSDT",
     "timeframe": "1h/5m",
@@ -1215,7 +1215,7 @@
     "tp_pct": 15.83,
     "atr": 0.003786,
     "rr": 2.0,
-    "quote_volume": 10273627.4437,
+    "quote_volume": 10273365.1016,
     "conditions": [
       "OTE",
       "OB",
