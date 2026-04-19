@@ -13,7 +13,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 EMA_PERIOD = 200
 ATR_PERIOD = 14
-RR_RATIO = 3.0
+RR_RATIO = 2.0       # RR 1:2 고정
 BE_TRIGGER = 1.5
 EXPIRE_HOURS = 48
 
@@ -57,40 +57,74 @@ def save_signals(signals):
         json.dump(signals[-1000:], f, ensure_ascii=False, indent=2)
 
 
-def send_telegram(token, chat_id, signal, is_result=False):
+def send_telegram(token, chat_id, signal, is_result: bool = False):
+    """
+    텔레그램 메시지 포맷:
+    - 신규 시그널: 네가 예시로 준 '알트종목 시그널 공유' 규격
+    - 결과 시그널: 🎯/🏆/💀/⏰ 포맷
+    """
     if not token or not chat_id:
         return
 
-    sym = signal["symbol"]
-    direct = signal["direction"]
+    symbol = signal["symbol"]          # "HIGH/USDT"
+    direction = signal["direction"]    # "LONG" or "SHORT"
     entry = fmt(signal["entry"])
     sl = fmt(signal["stop_loss"])
     tp1 = fmt(signal["take_profit1"])
     tp2 = fmt(signal["take_profit2"])
     be = fmt(signal["be_target"])
+    slp = signal.get("sl_pct", None)
+    tp1p = signal.get("tp1_pct", None)
+    tp2p = signal.get("tp2_pct", None)
     ts = signal["time"]
+    tf = signal.get("timeframe", "1h")
+    qv = signal.get("quote_volume", 0)
+
+    qv_str = f"{qv / 1e6:.1f}M" if qv >= 1e6 else f"{qv / 1e3:.0f}K"
+
+    # 방향 이모지 / 라벨
+    if direction == "LONG":
+        dir_icon = "🟢"
+    else:
+        dir_icon = "🔴"
 
     if is_result:
+        # 결과 시그널
         status = signal["status"]
+        icons = {"WIN": "🏆", "LOSS": "💀", "EXPIRED": "⏰", "TP1": "🎯"}
+        icon = icons.get(status, "❓")
         rp = fmt(signal.get("result_price"))
         pct = signal.get("result_pct")
-        pct_str = f" ({pct}%)" if pct is not None else ""
+        if pct is None:
+            pct_str = "?"
+        else:
+            sign = "+" if pct >= 0 else ""
+            pct_str = f"{sign}{pct:.2f}%"
+
         msg = (
-            f"결과 {sym}\n"
-            f"{direct} {status}{pct_str}\n"
-            f"진입: {entry}\n"
-            f"결과가: {rp}\n"
+            f"{icon} 결과: {symbol}\n"
+            f"방향: {direction} | 결과: {status}\n"
+            f"진입: {entry} → {rp}\n"
+            f"손익: {pct_str}\n"
             f"{ts}"
         )
     else:
-        qv = signal.get("quote_volume", 0)
-        qv_str = f"{qv / 1e6:.1f}M" if qv >= 1e6 else f"{qv / 1e3:.0f}K"
+        # 신규 시그널 – 네가 준 규격 그대로
+        rocket = "🚀"
+
+        def pct_str(v):
+            if v is None:
+                return "?"
+            sign = "-" if v < 0 else "+"
+            return f"{sign}{abs(v):.2f}%"
+
         msg = (
-            f"{sym} {direct}\n"
+            "알트종목 시그널 공유:\n"
+            f"{rocket} {symbol} {dir_icon} {direction}\n"
             f"진입: {entry}\n"
-            f"손절: {sl}\n"
-            f"TP1: {tp1}\n"
-            f"TP2: {tp2}\n"
+            f"손절: {sl} ({pct_str(slp)})\n"
+            f"TP1: {tp1} ({pct_str(tp1p)}) RR 1:{int(RR_RATIO)}\n"
+            f"TP2: {tp2} ({pct_str(tp2p)})\n"
             f"본절: {be}\n"
             f"거래대금: {qv_str}\n"
             f"{ts}"
@@ -103,6 +137,7 @@ def send_telegram(token, chat_id, signal, is_result=False):
             timeout=10,
         )
     except Exception:
+        # 텔레그램 오류로 스캐너 전체가 죽지 않도록 무시
         pass
 
 
@@ -135,6 +170,10 @@ def calc_ema(df, period):
 
 
 def calc_atr(df, period=ATR_PERIOD):
+    """
+    True Range = max(High-Low, |High-PrevClose|, |Low-PrevClose|)
+    을 기반으로 하는 단순 평균 ATR.
+    """
     prev_close = df["close"].shift(1)
     tr = pd.concat(
         [
@@ -148,6 +187,10 @@ def calc_atr(df, period=ATR_PERIOD):
 
 
 def get_top_symbols(top_n=TOP_N):
+    """
+    바이낸스 현물 USDT 마켓에서,
+    일정 거래대금 이상 + 스테이블 제외 후 상위 top_n 심볼 반환.
+    """
     MIN_QV_USD = 20_000_000
 
     info = requests.get(f"{BASE_URL}/api/v3/exchangeInfo", timeout=20).json()
@@ -181,7 +224,44 @@ def get_top_symbols(top_n=TOP_N):
     return {s: qv for s, qv in rows[:top_n]}
 
 
+def fetch_last_prices(symbols):
+    r = requests.get(f"{BASE_URL}/api/v3/ticker/price", timeout=20)
+    r.raise_for_status()
+    want = set(symbols)
+    return {
+        row["symbol"]: float(row["price"])
+        for row in r.json()
+        if row.get("symbol") in want
+    }
+
+
+def simple_mss(df: pd.DataFrame, direction: str, bars: int = 10) -> bool:
+    """
+    간단 MSS 필터:
+    - LONG: 최근 bars봉 직전 구조의 high를 현재 종가가 돌파
+    - SHORT: 최근 bars봉 직전 구조의 low를 현재 종가가 하향 돌파
+    """
+    if len(df) < bars + 2:
+        return False
+
+    structure = df.iloc[-(bars + 1) : -1]
+    last = df.iloc[-1]
+
+    if direction == "LONG":
+        prev_high = float(structure["high"].max())
+        return float(last["close"]) > prev_high
+    else:
+        prev_low = float(structure["low"].min())
+        return float(last["close"]) < prev_low
+
+
 def scan_symbol(symbol, quote_volume=0):
+    """
+    1h 데이터 기준:
+    - EMA200으로 LONG/SHORT 결정
+    - 최근 10봉 MSS 필터(simple_mss) 통과
+    - 최근 20봉 high/low + ATR로 SL/TP 계산
+    """
     try:
         raw = fetch_ohlcv(symbol, "1h", 300)
         if len(raw) < 250:
@@ -196,6 +276,10 @@ def scan_symbol(symbol, quote_volume=0):
         last_low = float(df["low"].iloc[-20:].min())
 
         direction = "LONG" if price > float(ema200.iloc[-1]) else "SHORT"
+
+        # ── ICT 구조 필터: 간단 MSS 느낌 ──
+        if not simple_mss(df, direction, bars=10):
+            return None
 
         if direction == "LONG":
             sl = last_low - atr * 0.5
@@ -243,18 +327,12 @@ def scan_symbol(symbol, quote_volume=0):
         return None
 
 
-def fetch_last_prices(symbols):
-    r = requests.get(f"{BASE_URL}/api/v3/ticker/price", timeout=20)
-    r.raise_for_status()
-    want = set(symbols)
-    return {
-        row["symbol"]: float(row["price"])
-        for row in r.json()
-        if row.get("symbol") in want
-    }
-
-
 def resolve_open_signals(signals):
+    """
+    OPEN 상태 시그널들에 대해:
+    - TP2 / TP1 / SL / 만료(EXPIRED) 판정
+    - 결과 확정 시 result_* 필드 채우고 리스트로 반환
+    """
     now = datetime.now(timezone.utc)
 
     open_symbols = list(
@@ -291,20 +369,24 @@ def resolve_open_signals(signals):
         except Exception:
             elapsed = 0
 
+        # 구버전 호환: take_profit 필드만 있을 수도 있음
+        tp1 = sig.get("take_profit1", sig.get("take_profit"))
+        tp2 = sig.get("take_profit2", tp1)
+
         result = None
         if sig["direction"] == "LONG":
-            if curr >= sig["take_profit2"]:
+            if curr >= tp2:
                 result = "WIN"
-            elif curr >= sig["take_profit1"]:
+            elif curr >= tp1:
                 result = "TP1"
             elif curr <= sig["stop_loss"]:
                 result = "LOSS"
             elif elapsed >= EXPIRE_HOURS:
                 result = "EXPIRED"
         else:
-            if curr <= sig["take_profit2"]:
+            if curr <= tp2:
                 result = "WIN"
-            elif curr <= sig["take_profit1"]:
+            elif curr <= tp1:
                 result = "TP1"
             elif curr >= sig["stop_loss"]:
                 result = "LOSS"
@@ -332,10 +414,14 @@ def main():
 
     signals = load_signals()
 
+    # 미결 시그널 결과 확정
     resolved = resolve_open_signals(signals)
-    for sig in resolved:
-        send_telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, sig, is_result=True)
+    if resolved:
+        print(f"기존 시그널 결과 확정: {len(resolved)}건")
+        for sig in resolved:
+            send_telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID, sig, is_result=True)
 
+    # 이미 OPEN 중인 (심볼, 방향, 타임프레임) 조합 수집
     open_set = {
         (s.get("raw_symbol", s["symbol"].replace("/", "")), s["direction"], s["timeframe"])
         for s in signals
