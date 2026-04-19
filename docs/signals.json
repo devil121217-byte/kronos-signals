@@ -1164,5 +1164,37 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-19 09:59 UTC"
+  },
+  {
+    "id": "BIOUSDT_1h5m_1776593074",
+    "symbol": "BIO/USDT",
+    "raw_symbol": "BIOUSDT",
+    "timeframe": "1h/5m",
+    "direction": "LONG",
+    "entry": 0.0306,
+    "stop_loss": 0.0304,
+    "take_profit1": 0.031,
+    "take_profit2": 0.0349,
+    "take_profit": 0.031,
+    "be_target": 0.0308,
+    "sl_pct": 0.65,
+    "tp1_pct": 1.31,
+    "tp2_pct": 14.05,
+    "tp_pct": 1.31,
+    "atr": 0.0004,
+    "rr": 2.0,
+    "quote_volume": 20477071.71533,
+    "conditions": [
+      "OTE",
+      "LiqSweep",
+      "Vol"
+    ],
+    "fvg_low": 0.0306,
+    "fvg_high": 0.0308,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-19 10:04 UTC"
   }
 ]
