@@ -8,17 +8,23 @@ from datetime import datetime, timezone
 import pandas as pd
 import requests
 
+# ─────────────────────────────────────────────────────────────
+# 환경 변수
+# ─────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
+# ─────────────────────────────────────────────────────────────
+# 전략 / 실행 설정
+# ─────────────────────────────────────────────────────────────
 EMA_PERIOD = 200
 ATR_PERIOD = 14
 RR_RATIO = 2.0       # RR 1:2 고정
 BE_TRIGGER = 1.5
 EXPIRE_HOURS = 48
 
-TOP_N = 100
-TOP_SIGNAL_N = 10
+TOP_N = 100          # 거래대금 상위 N개 심볼 스캔
+TOP_SIGNAL_N = 10    # 이 중 상위 몇 개만 텔레그램 전송
 
 SIGNALS_FILE = "docs/signals.json"
 BASE_URL = "https://api.binance.com"
@@ -30,6 +36,9 @@ STABLE_BASES = {
 }
 
 
+# ─────────────────────────────────────────────────────────────
+# 유틸
+# ─────────────────────────────────────────────────────────────
 def utc_now_str():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -57,6 +66,9 @@ def save_signals(signals):
         json.dump(signals[-1000:], f, ensure_ascii=False, indent=2)
 
 
+# ─────────────────────────────────────────────────────────────
+# 텔레그램
+# ─────────────────────────────────────────────────────────────
 def send_telegram(token, chat_id, signal, is_result: bool = False):
     """
     텔레그램 메시지 포맷:
@@ -141,6 +153,9 @@ def send_telegram(token, chat_id, signal, is_result: bool = False):
         pass
 
 
+# ─────────────────────────────────────────────────────────────
+# 데이터 / 지표
+# ─────────────────────────────────────────────────────────────
 def symbol_to_display(symbol):
     return symbol[:-4] + "/USDT" if symbol.endswith("USDT") else symbol
 
@@ -190,6 +205,9 @@ def get_top_symbols(top_n=TOP_N):
     """
     바이낸스 현물 USDT 마켓에서,
     일정 거래대금 이상 + 스테이블 제외 후 상위 top_n 심볼 반환.
+
+    GitHub Actions 환경에서 응답이 비정상일 수 있어
+    dict 타입이 아닌 항목은 방어적으로 스킵한다.
     """
     MIN_QV_USD = 20_000_000
 
@@ -198,6 +216,8 @@ def get_top_symbols(top_n=TOP_N):
 
     allowed = set()
     for s in info.get("symbols", []):
+        if not isinstance(s, dict):
+            continue
         if s.get("status") != "TRADING":
             continue
         if s.get("quoteAsset") != "USDT":
@@ -210,6 +230,8 @@ def get_top_symbols(top_n=TOP_N):
 
     rows = []
     for t in tickers:
+        if not isinstance(t, dict):
+            continue
         sym = t.get("symbol")
         if sym not in allowed:
             continue
@@ -231,10 +253,13 @@ def fetch_last_prices(symbols):
     return {
         row["symbol"]: float(row["price"])
         for row in r.json()
-        if row.get("symbol") in want
+        if isinstance(row, dict) and row.get("symbol") in want
     }
 
 
+# ─────────────────────────────────────────────────────────────
+# ICT 간단 MSS 필터
+# ─────────────────────────────────────────────────────────────
 def simple_mss(df: pd.DataFrame, direction: str, bars: int = 5) -> bool:
     """
     간단 MSS 필터:
@@ -255,6 +280,9 @@ def simple_mss(df: pd.DataFrame, direction: str, bars: int = 5) -> bool:
         return float(last["close"]) < prev_low
 
 
+# ─────────────────────────────────────────────────────────────
+# 심볼 스캔
+# ─────────────────────────────────────────────────────────────
 def scan_symbol(symbol, quote_volume=0):
     """
     1h 데이터 기준:
@@ -327,11 +355,15 @@ def scan_symbol(symbol, quote_volume=0):
         return None
 
 
+# ─────────────────────────────────────────────────────────────
+# 시그널 결과 갱신
+# ─────────────────────────────────────────────────────────────
 def resolve_open_signals(signals):
     """
     OPEN 상태 시그널들에 대해:
     - TP2 / TP1 / SL / 만료(EXPIRED) 판정
     - 결과 확정 시 result_* 필드 채우고 리스트로 반환
+    구버전 포맷( take_profit 만 있는 경우 )도 호환.
     """
     now = datetime.now(timezone.utc)
 
@@ -409,6 +441,9 @@ def resolve_open_signals(signals):
     return resolved
 
 
+# ─────────────────────────────────────────────────────────────
+# 메인
+# ─────────────────────────────────────────────────────────────
 def main():
     print(f"거래대금 상위 {TOP_N}개 바이낸스 현물 알트코인 스캔 중...")
 
@@ -428,6 +463,7 @@ def main():
         if s.get("status") == "OPEN"
     }
 
+    # 거래대금 상위 심볼
     symbol_vol = get_top_symbols(TOP_N)
     symbols = list(symbol_vol.keys())
 
