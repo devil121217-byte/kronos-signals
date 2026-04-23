@@ -43,6 +43,15 @@ def utc_now_str():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
+def smart_round(v):
+    """가격 크기에 따라 자동 소수점 자릿수 조정"""
+    if v == 0:
+        return 0
+    import math
+    digits = max(6, -int(math.floor(math.log10(abs(v)))) + 4)
+    return round(v, digits)
+
+
 def fmt(v):
     if v is None:
         return "-"
@@ -336,11 +345,11 @@ def scan_symbol(symbol, quote_volume=0):
             "raw_symbol": symbol,
             "timeframe": "1h",
             "direction": direction,
-            "entry": round(price, 6),
-            "stop_loss": round(sl, 6),
-            "take_profit1": round(tp1, 6),
-            "take_profit2": round(tp2, 6),
-            "be_target": round(be, 6),
+            "entry": smart_round(price),
+            "stop_loss": smart_round(sl),
+            "take_profit1": smart_round(tp1),
+            "take_profit2": smart_round(tp2),
+            "be_target": smart_round(be),
             "sl_pct": sl_pct,
             "tp1_pct": tp1_pct,
             "tp2_pct": tp2_pct,
@@ -433,7 +442,7 @@ def resolve_open_signals(signals):
                 result_pct = round((entry - curr) / entry * 100, 2)
 
             sig["status"] = result
-            sig["result_price"] = round(curr, 6)
+            sig["result_price"] = smart_round(curr)
             sig["result_pct"] = result_pct
             sig["result_time"] = utc_now_str()
             resolved.append(sig)
