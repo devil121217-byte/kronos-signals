@@ -26,6 +26,7 @@
   .badge-win { background: #1a3d2b; color: #3fb950; }
   .badge-loss { background: #3d1a1a; color: #f85149; }
   .badge-expired { background: #3d2f0a; color: #d29922; }
+  .badge-tp1 { background: #1a3340; color: #58d4ff; }
   .badge-long { background: #1a3d2b; color: #3fb950; }
   .badge-short { background: #3d1a1a; color: #f85149; }
   .refresh-btn { display: block; margin: 10px auto; padding: 8px 24px; background: #238636; color: white; border: none; border-radius: 6px; font-size: 1em; cursor: pointer; }
@@ -33,11 +34,14 @@
   .filter-bar { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 8px 0; }
   .filter-btn { padding: 4px 14px; border-radius: 12px; border: 1px solid #30363d; background: #161b22; color: #e6edf3; cursor: pointer; font-size: 0.85em; }
   .filter-btn.active { background: #58a6ff; color: #0d1117; border-color: #58a6ff; }
+  .tp-wrap { display: flex; flex-direction: column; gap: 2px; line-height: 1.3; }
+  .tp1 { color: #3fb950; }
+  .tp2 { color: #58d4ff; font-size: 0.88em; }
 </style>
 </head>
 <body>
 <h1>📡 Kronos 시그널 대시보드</h1>
-<button class="refresh-btn" onclick="loadSignals()">🔄 새로고침</button>
+<button class="refresh-btn" onclick="loadSignals()">🔄  새로고침</button>
 <div class="stats" id="stats"></div>
 <div class="filter-bar">
   <button class="filter-btn active" onclick="setFilter('ALL')">전체</button>
@@ -57,7 +61,7 @@
       <th>TF</th>
       <th>진입</th>
       <th>손절</th>
-      <th>목표</th>
+      <th>TP1 / TP2</th>
       <th>상태</th>
       <th>손익</th>
       <th>시간</th>
@@ -77,7 +81,13 @@ function setFilter(f) {
 }
 
 function statusBadge(s) {
-  const map = { OPEN:'badge-open', WIN:'badge-win', LOSS:'badge-loss', EXPIRED:'badge-expired' };
+  const map = {
+    OPEN: 'badge-open',
+    WIN:  'badge-win',
+    LOSS: 'badge-loss',
+    EXPIRED: 'badge-expired',
+    TP1:  'badge-tp1',
+  };
   return `<span class="badge ${map[s]||''}">${s}</span>`;
 }
 
@@ -85,10 +95,21 @@ function dirBadge(d) {
   return `<span class="badge ${d==='LONG'?'badge-long':'badge-short'}">${d}</span>`;
 }
 
+// ── 목표가: 신버전(take_profit1/2) + 구버전(take_profit) 모두 호환 ──
+function tpCell(s) {
+  const tp1 = s.take_profit1 ?? s.take_profit ?? null;
+  const tp2 = s.take_profit2 ?? null;
+  if (tp1 === null) return '-';
+  if (tp2 !== null && tp2 !== tp1) {
+    return `<div class="tp-wrap"><span class="tp1">${tp1}</span><span class="tp2">${tp2}</span></div>`;
+  }
+  return `<span class="tp1">${tp1}</span>`;
+}
+
 function renderTable() {
   const filtered = allSignals.filter(s => {
     if (currentFilter === 'ALL') return true;
-    if (['OPEN','WIN','LOSS','EXPIRED'].includes(currentFilter)) return s.status === currentFilter;
+    if (['OPEN','WIN','LOSS','EXPIRED','TP1'].includes(currentFilter)) return s.status === currentFilter;
     if (['LONG','SHORT'].includes(currentFilter)) return s.direction === currentFilter;
     return true;
   });
@@ -100,7 +121,7 @@ function renderTable() {
   }
 
   tbody.innerHTML = [...filtered].reverse().map(s => {
-    const pct = s.result_pct !== null && s.result_pct !== undefined
+    const pct = (s.result_pct !== null && s.result_pct !== undefined)
       ? `<span style="color:${s.result_pct>=0?'#3fb950':'#f85149'}">${s.result_pct>=0?'+':''}${s.result_pct}%</span>`
       : '-';
     const time = (s.time||'').replace(' UTC','');
@@ -110,7 +131,7 @@ function renderTable() {
       <td>${s.timeframe||''}</td>
       <td>${s.entry||''}</td>
       <td style="color:#f85149">${s.stop_loss||''}</td>
-      <td style="color:#3fb950">${s.take_profit||''}</td>
+      <td>${tpCell(s)}</td>
       <td>${statusBadge(s.status)}</td>
       <td>${pct}</td>
       <td style="color:#8b949e;font-size:0.85em">${time}</td>
@@ -119,15 +140,16 @@ function renderTable() {
 }
 
 function renderStats(signals) {
-  const total = signals.length;
-  const open = signals.filter(s=>s.status==='OPEN').length;
-  const win = signals.filter(s=>s.status==='WIN').length;
-  const loss = signals.filter(s=>s.status==='LOSS').length;
+  const total   = signals.length;
+  const open    = signals.filter(s=>s.status==='OPEN').length;
+  const win     = signals.filter(s=>s.status==='WIN').length;
+  const loss    = signals.filter(s=>s.status==='LOSS').length;
   const expired = signals.filter(s=>s.status==='EXPIRED').length;
-  const long = signals.filter(s=>s.direction==='LONG').length;
-  const short = signals.filter(s=>s.direction==='SHORT').length;
-  const closed = win + loss;
-  const wr = closed > 0 ? Math.round(win/closed*100) : 0;
+  const tp1     = signals.filter(s=>s.status==='TP1').length;
+  const long    = signals.filter(s=>s.direction==='LONG').length;
+  const short   = signals.filter(s=>s.direction==='SHORT').length;
+  const closed  = win + loss;
+  const wr      = closed > 0 ? Math.round(win/closed*100) : 0;
 
   document.getElementById('stats').innerHTML = `
     <div class="stat-box"><div class="num">${total}</div><div class="label">전체</div></div>
@@ -135,6 +157,7 @@ function renderStats(signals) {
     <div class="stat-box"><div class="num win">${win}</div><div class="label">WIN</div></div>
     <div class="stat-box"><div class="num loss">${loss}</div><div class="label">LOSS</div></div>
     <div class="stat-box"><div class="num expired">${expired}</div><div class="label">EXPIRED</div></div>
+    <div class="stat-box"><div class="num" style="color:#58d4ff">${tp1}</div><div class="label">TP1</div></div>
     <div class="stat-box"><div class="num long">${long}</div><div class="label">LONG</div></div>
     <div class="stat-box"><div class="num short">${short}</div><div class="label">SHORT</div></div>
     <div class="stat-box"><div class="num" style="color:#d29922">${wr}%</div><div class="label">승률</div></div>
@@ -151,7 +174,8 @@ function loadSignals() {
       document.getElementById('updated').textContent = '업데이트: ' + new Date().toLocaleString('ko-KR');
     })
     .catch(e => {
-      document.getElementById('tbody').innerHTML = '<tr><td colspan="9" style="color:#f85149">signals.json 로드 실패: ' + e + '</td></tr>';
+      document.getElementById('tbody').innerHTML =
+        '<tr><td colspan="9" style="color:#f85149">signals.json 로드 실패: ' + e + '</td></tr>';
     });
 }
 
