@@ -326,7 +326,7 @@ def scan_symbol(symbol, quote_volume=0):
             tp2 = price - dist * (RR_RATIO + 1)
             be = price - dist * BE_TRIGGER
 
-        sl_pct = round(abs(price - sl) / price * 100, 2)
+        sl_pct = round(-abs(price - sl) / price * 100, 2)   # 항상 음수
         tp1_pct = round(abs(tp1 - price) / price * 100, 2)
         tp2_pct = round(abs(tp2 - price) / price * 100, 2)
 
@@ -410,7 +410,7 @@ def resolve_open_signals(signals):
             if curr >= tp2:
                 result = "WIN"
             elif curr >= tp1:
-                result = "TP1"
+                result = "WIN"
             elif curr <= sig["stop_loss"]:
                 result = "LOSS"
             elif elapsed >= EXPIRE_HOURS:
@@ -419,7 +419,7 @@ def resolve_open_signals(signals):
             if curr <= tp2:
                 result = "WIN"
             elif curr <= tp1:
-                result = "TP1"
+                result = "WIN"
             elif curr >= sig["stop_loss"]:
                 result = "LOSS"
             elif elapsed >= EXPIRE_HOURS:
