@@ -43,14 +43,16 @@ def utc_now_str():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
+
+import math
+
+
 def smart_round(v):
-    """가격 크기에 따라 자동 소수점 자릿수 조정"""
-    if v == 0:
-        return 0
-    import math
+    """가격 크기에 따라 소수점 자릿수 자동 조정 (PEPE 같은 소액 코인 대응)"""
+    if v is None or v == 0:
+        return v
     digits = max(6, -int(math.floor(math.log10(abs(v)))) + 4)
     return round(v, digits)
-
 
 def fmt(v):
     if v is None:
@@ -71,8 +73,10 @@ def load_signals():
 
 def save_signals(signals):
     os.makedirs("docs", exist_ok=True)
-    with open(SIGNALS_FILE, "w", encoding="utf-8") as f:
+    tmp = SIGNALS_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(signals[-1000:], f, ensure_ascii=False, indent=2)
+    os.replace(tmp, SIGNALS_FILE)  # 원자적 교체 — 동시 쓰기 충돌 방지
 
 
 # ─────────────────────────────────────────────────────────────
@@ -91,9 +95,9 @@ def send_telegram(token, chat_id, signal, is_result: bool = False):
     direction = signal["direction"]    # "LONG" or "SHORT"
     entry = fmt(signal["entry"])
     sl = fmt(signal["stop_loss"])
-    tp1 = fmt(signal["take_profit1"])
-    tp2 = fmt(signal["take_profit2"])
-    be = fmt(signal["be_target"])
+    tp1 = fmt(signal.get("take_profit1", signal.get("take_profit")))
+    tp2 = fmt(signal.get("take_profit2", signal.get("take_profit")))
+    be = fmt(signal.get("be_target"))
     slp = signal.get("sl_pct", None)
     tp1p = signal.get("tp1_pct", None)
     tp2p = signal.get("tp2_pct", None)
