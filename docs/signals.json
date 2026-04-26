@@ -2765,10 +2765,10 @@
     "tp1_pct": 10.76,
     "tp2_pct": 16.14,
     "quote_volume": 26817245.83243,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 95.97,
+    "result_pct": 0.19,
+    "result_time": "2026-04-26 12:10 UTC",
     "time": "2026-04-24 12:10 UTC"
   },
   {
@@ -2786,10 +2786,10 @@
     "tp1_pct": 58.14,
     "tp2_pct": 87.21,
     "quote_volume": 22020148.440473,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 0.06027,
+    "result_pct": -26.4,
+    "result_time": "2026-04-26 12:10 UTC",
     "time": "2026-04-24 12:10 UTC"
   },
   {
