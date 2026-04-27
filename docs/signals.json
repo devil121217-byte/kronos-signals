@@ -45,10 +45,10 @@
     "vol_ratio": 1.64,
     "adx": 20.7,
     "quote_volume": 104338036.79203,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 85.59,
+    "result_pct": -1.41,
+    "result_time": "2026-04-27 06:34 UTC",
     "time": "2026-04-26 18:59 UTC"
   },
   {
@@ -97,10 +97,10 @@
     "vol_ratio": 1.76,
     "adx": 22.9,
     "quote_volume": 32443417.72691,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 626.0,
+    "result_pct": -1.52,
+    "result_time": "2026-04-27 06:34 UTC",
     "time": "2026-04-26 19:51 UTC"
   },
   {
@@ -123,10 +123,10 @@
     "vol_ratio": 1.88,
     "adx": 26.3,
     "quote_volume": 45286016.60918,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 1.4155,
+    "result_pct": -1.67,
+    "result_time": "2026-04-27 06:34 UTC",
     "time": "2026-04-27 00:57 UTC"
   },
   {
