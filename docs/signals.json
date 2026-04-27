@@ -128,5 +128,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-27 00:57 UTC"
+  },
+  {
+    "id": "ADAUSDT_1777267953",
+    "symbol": "ADA/USDT",
+    "raw_symbol": "ADAUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 0.2486,
+    "stop_loss": 0.257179,
+    "take_profit1": 0.231443,
+    "take_profit2": 0.222864,
+    "be_target": 0.235732,
+    "sl_pct": -3.45,
+    "tp1_pct": 6.9,
+    "tp2_pct": 10.35,
+    "accum_high": 0.2561,
+    "accum_low": 0.2489,
+    "accum_bars": 25,
+    "vol_ratio": 3.03,
+    "adx": 25.8,
+    "quote_volume": 21008091.7985,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-27 05:32 UTC"
   }
 ]
