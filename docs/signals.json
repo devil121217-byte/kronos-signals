@@ -154,5 +154,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-27 05:32 UTC"
+  },
+  {
+    "id": "ZECUSDT_1777350836",
+    "symbol": "ZEC/USDT",
+    "raw_symbol": "ZECUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 343.3,
+    "stop_loss": 363.580714,
+    "take_profit1": 302.738571,
+    "take_profit2": 282.457857,
+    "be_target": 312.878929,
+    "sl_pct": -5.91,
+    "tp1_pct": 11.82,
+    "tp2_pct": 17.72,
+    "accum_high": 361.04,
+    "accum_low": 345.78,
+    "accum_bars": 18,
+    "vol_ratio": 1.52,
+    "adx": 23.5,
+    "quote_volume": 41369200.82707,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-28 04:33 UTC"
   }
 ]
