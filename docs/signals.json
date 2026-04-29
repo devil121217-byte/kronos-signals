@@ -227,10 +227,10 @@
     "vol_ratio": 1.58,
     "adx": 25.7,
     "quote_volume": 493340324.179414,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 2234.25,
+    "result_pct": -4.12,
+    "result_time": "2026-04-29 18:12 UTC",
     "time": "2026-04-29 04:38 UTC"
   },
   {
@@ -253,10 +253,10 @@
     "vol_ratio": 1.6,
     "adx": 21.9,
     "quote_volume": 28960410.31124886,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 3.76e-06,
+    "result_pct": -4.57,
+    "result_time": "2026-04-29 18:12 UTC",
     "time": "2026-04-29 04:49 UTC"
   },
   {
