@@ -258,5 +258,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-29 04:49 UTC"
+  },
+  {
+    "id": "PLUMEUSDT_1777470770",
+    "symbol": "PLUME/USDT",
+    "raw_symbol": "PLUMEUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 0.01217,
+    "stop_loss": 0.012885,
+    "take_profit1": 0.010741,
+    "take_profit2": 0.010026,
+    "be_target": 0.011098,
+    "sl_pct": -5.87,
+    "tp1_pct": 11.74,
+    "tp2_pct": 17.62,
+    "accum_high": 0.0128,
+    "accum_low": 0.01227,
+    "accum_bars": 20,
+    "vol_ratio": 1.71,
+    "adx": 23.6,
+    "quote_volume": 20657199.91628,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-04-29 13:52 UTC"
   }
 ]
