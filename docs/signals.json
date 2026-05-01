@@ -284,5 +284,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-04-29 13:52 UTC"
+  },
+  {
+    "id": "DOGEUSDT_1777599577",
+    "symbol": "DOGE/USDT",
+    "raw_symbol": "DOGEUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.10824,
+    "stop_loss": 0.104889,
+    "take_profit1": 0.114943,
+    "take_profit2": 0.118294,
+    "be_target": 0.113267,
+    "sl_pct": -3.1,
+    "tp1_pct": 6.19,
+    "tp2_pct": 9.29,
+    "accum_high": 0.10793,
+    "accum_low": 0.10541,
+    "accum_bars": 15,
+    "vol_ratio": 1.73,
+    "adx": 24.6,
+    "quote_volume": 142816639.00436,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-01 01:39 UTC"
   }
 ]
