@@ -388,5 +388,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-02 21:41 UTC"
+  },
+  {
+    "id": "BTCUSDT_1777758380",
+    "symbol": "BTC/USDT",
+    "raw_symbol": "BTCUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 78830.75,
+    "stop_loss": 77657.328929,
+    "take_profit1": 81177.592143,
+    "take_profit2": 82351.013214,
+    "be_target": 80590.881607,
+    "sl_pct": -1.49,
+    "tp1_pct": 2.98,
+    "tp2_pct": 4.47,
+    "accum_high": 78596.61,
+    "accum_low": 77752.0,
+    "accum_bars": 26,
+    "vol_ratio": 2.73,
+    "adx": 26.1,
+    "quote_volume": 493242533.2806699,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-02 21:46 UTC"
   }
 ]
