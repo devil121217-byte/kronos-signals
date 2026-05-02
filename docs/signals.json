@@ -336,5 +336,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-01 03:28 UTC"
+  },
+  {
+    "id": "TRXUSDT_1777697311",
+    "symbol": "TRX/USDT",
+    "raw_symbol": "TRXUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.3279,
+    "stop_loss": 0.323804,
+    "take_profit1": 0.336093,
+    "take_profit2": 0.340189,
+    "be_target": 0.334045,
+    "sl_pct": -1.25,
+    "tp1_pct": 2.5,
+    "tp2_pct": 3.75,
+    "accum_high": 0.3275,
+    "accum_low": 0.3241,
+    "accum_bars": 45,
+    "vol_ratio": 2.37,
+    "adx": 24.2,
+    "quote_volume": 22273303.14821,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-02 04:48 UTC"
   }
 ]
