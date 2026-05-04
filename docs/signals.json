@@ -492,5 +492,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-04 00:22 UTC"
+  },
+  {
+    "id": "PENGUUSDT_1777859096",
+    "symbol": "PENGU/USDT",
+    "raw_symbol": "PENGUUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.010192,
+    "stop_loss": 0.0094659,
+    "take_profit1": 0.011644,
+    "take_profit2": 0.01237,
+    "be_target": 0.011281,
+    "sl_pct": -7.12,
+    "tp1_pct": 14.25,
+    "tp2_pct": 21.37,
+    "accum_high": 0.010125,
+    "accum_low": 0.009551,
+    "accum_bars": 32,
+    "vol_ratio": 2.27,
+    "adx": 25.9,
+    "quote_volume": 20463548.829624,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-04 01:44 UTC"
   }
 ]
