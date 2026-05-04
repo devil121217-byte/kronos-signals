@@ -518,5 +518,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-04 01:44 UTC"
+  },
+  {
+    "id": "PEPEUSDT_1777859718",
+    "symbol": "PEPE/USDT",
+    "raw_symbol": "PEPEUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 4.02e-06,
+    "stop_loss": 3.8775e-06,
+    "take_profit1": 4.305e-06,
+    "take_profit2": 4.4475e-06,
+    "be_target": 4.2337e-06,
+    "sl_pct": -3.54,
+    "tp1_pct": 7.09,
+    "tp2_pct": 10.63,
+    "accum_high": 4e-06,
+    "accum_low": 3.9e-06,
+    "accum_bars": 17,
+    "vol_ratio": 4.16,
+    "adx": 16.9,
+    "quote_volume": 25118338.25282841,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-04 01:55 UTC"
   }
 ]
