@@ -565,10 +565,10 @@
     "vol_ratio": 2.53,
     "adx": 26.1,
     "quote_volume": 231685917.52214,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 86.29,
+    "result_pct": -3.55,
+    "result_time": "2026-05-05 19:26 UTC",
     "time": "2026-05-04 10:25 UTC"
   },
   {
