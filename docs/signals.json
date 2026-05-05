@@ -700,5 +700,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-05 15:53 UTC"
+  },
+  {
+    "id": "TAOUSDT_1778013416",
+    "symbol": "TAO/USDT",
+    "raw_symbol": "TAOUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 289.4,
+    "stop_loss": 279.414286,
+    "take_profit1": 309.371429,
+    "take_profit2": 319.357143,
+    "be_target": 304.378571,
+    "sl_pct": -3.45,
+    "tp1_pct": 6.9,
+    "tp2_pct": 10.35,
+    "accum_high": 288.9,
+    "accum_low": 281.0,
+    "accum_bars": 17,
+    "vol_ratio": 1.61,
+    "adx": 18.5,
+    "quote_volume": 24568477.62352,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-05 20:36 UTC"
   }
 ]
