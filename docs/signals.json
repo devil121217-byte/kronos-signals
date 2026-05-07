@@ -752,5 +752,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-06 08:56 UTC"
+  },
+  {
+    "id": "VANAUSDT_1778125739",
+    "symbol": "VANA/USDT",
+    "raw_symbol": "VANAUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 1.601,
+    "stop_loss": 1.506786,
+    "take_profit1": 1.789429,
+    "take_profit2": 1.883643,
+    "be_target": 1.742321,
+    "sl_pct": -5.88,
+    "tp1_pct": 11.77,
+    "tp2_pct": 17.65,
+    "accum_high": 1.596,
+    "accum_low": 1.518,
+    "accum_bars": 26,
+    "vol_ratio": 5.32,
+    "adx": 24.6,
+    "quote_volume": 20146526.7367,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-07 03:48 UTC"
   }
 ]
