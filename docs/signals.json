@@ -830,5 +830,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-08 07:42 UTC"
+  },
+  {
+    "id": "ENAUSDT_1778226754",
+    "symbol": "ENA/USDT",
+    "raw_symbol": "ENAUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.1218,
+    "stop_loss": 0.116254,
+    "take_profit1": 0.132893,
+    "take_profit2": 0.138439,
+    "be_target": 0.13012,
+    "sl_pct": -4.55,
+    "tp1_pct": 9.11,
+    "tp2_pct": 13.66,
+    "accum_high": 0.1213,
+    "accum_low": 0.1173,
+    "accum_bars": 15,
+    "vol_ratio": 4.75,
+    "adx": 16.6,
+    "quote_volume": 29308778.399234,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-08 07:52 UTC"
   }
 ]
