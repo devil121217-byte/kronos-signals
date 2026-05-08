@@ -908,5 +908,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-08 13:57 UTC"
+  },
+  {
+    "id": "LINKUSDT_1778251202",
+    "symbol": "LINK/USDT",
+    "raw_symbol": "LINKUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 10.02,
+    "stop_loss": 9.728929,
+    "take_profit1": 10.602143,
+    "take_profit2": 10.893214,
+    "be_target": 10.456607,
+    "sl_pct": -2.9,
+    "tp1_pct": 5.81,
+    "tp2_pct": 8.71,
+    "accum_high": 10.0,
+    "accum_low": 9.77,
+    "accum_bars": 15,
+    "vol_ratio": 2.22,
+    "adx": 19.2,
+    "quote_volume": 22592418.1798,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-08 14:40 UTC"
   }
 ]
