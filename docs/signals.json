@@ -882,5 +882,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-08 09:27 UTC"
+  },
+  {
+    "id": "PAXGUSDT_1778248656",
+    "symbol": "PAXG/USDT",
+    "raw_symbol": "PAXGUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 4737.6,
+    "stop_loss": 4664.886429,
+    "take_profit1": 4883.027143,
+    "take_profit2": 4955.740714,
+    "be_target": 4846.670357,
+    "sl_pct": -1.53,
+    "tp1_pct": 3.07,
+    "tp2_pct": 4.6,
+    "accum_high": 4724.98,
+    "accum_low": 4674.61,
+    "accum_bars": 15,
+    "vol_ratio": 1.82,
+    "adx": 18.5,
+    "quote_volume": 39472605.552298,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-08 13:57 UTC"
   }
 ]
