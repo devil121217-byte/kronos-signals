@@ -934,5 +934,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-08 14:40 UTC"
+  },
+  {
+    "id": "AVAXUSDT_1778251523",
+    "symbol": "AVAX/USDT",
+    "raw_symbol": "AVAXUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 9.71,
+    "stop_loss": 9.331429,
+    "take_profit1": 10.467143,
+    "take_profit2": 10.845714,
+    "be_target": 10.277857,
+    "sl_pct": -3.9,
+    "tp1_pct": 7.8,
+    "tp2_pct": 11.7,
+    "accum_high": 9.7,
+    "accum_low": 9.37,
+    "accum_bars": 48,
+    "vol_ratio": 1.6,
+    "adx": 27.8,
+    "quote_volume": 21083094.898,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-08 14:45 UTC"
   }
 ]
