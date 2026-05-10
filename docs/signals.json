@@ -929,10 +929,10 @@
     "vol_ratio": 2.22,
     "adx": 19.2,
     "quote_volume": 22592418.1798,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 10.56,
+    "result_pct": 5.39,
+    "result_time": "2026-05-10 14:44 UTC",
     "time": "2026-05-08 14:40 UTC"
   },
   {
