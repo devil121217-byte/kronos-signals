@@ -877,10 +877,10 @@
     "vol_ratio": 1.66,
     "adx": 20.5,
     "quote_volume": 37358984.79736,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 312.7,
+    "result_pct": 0.13,
+    "result_time": "2026-05-10 09:27 UTC",
     "time": "2026-05-08 09:27 UTC"
   },
   {
