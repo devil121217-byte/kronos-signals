@@ -1090,5 +1090,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-10 13:42 UTC"
+  },
+  {
+    "id": "BNBUSDT_1778427689",
+    "symbol": "BNB/USDT",
+    "raw_symbol": "BNBUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 654.87,
+    "stop_loss": 643.781071,
+    "take_profit1": 677.047857,
+    "take_profit2": 688.136786,
+    "be_target": 671.503393,
+    "sl_pct": -1.69,
+    "tp1_pct": 3.39,
+    "tp2_pct": 5.08,
+    "accum_high": 652.49,
+    "accum_low": 644.84,
+    "accum_bars": 22,
+    "vol_ratio": 1.59,
+    "adx": 24.5,
+    "quote_volume": 54835239.11901,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-10 15:41 UTC"
   }
 ]
