@@ -825,10 +825,10 @@
     "vol_ratio": 4.01,
     "adx": 21.3,
     "quote_volume": 20393661.3219,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 1.568,
+    "result_pct": 2.35,
+    "result_time": "2026-05-10 07:44 UTC",
     "time": "2026-05-08 07:42 UTC"
   },
   {
