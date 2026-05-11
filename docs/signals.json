@@ -1142,5 +1142,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-10 16:28 UTC"
+  },
+  {
+    "id": "LUNCUSDT_1778485443",
+    "symbol": "LUNC/USDT",
+    "raw_symbol": "LUNCUSDT",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "entry": 0.00010267,
+    "stop_loss": 9.4165e-05,
+    "take_profit1": 0.00011968,
+    "take_profit2": 0.00012818,
+    "be_target": 0.00011543,
+    "sl_pct": -8.28,
+    "tp1_pct": 16.57,
+    "tp2_pct": 24.85,
+    "accum_high": 0.00010195,
+    "accum_low": 9.531e-05,
+    "accum_bars": 15,
+    "vol_ratio": 1.68,
+    "adx": 21.5,
+    "quote_volume": 32120278.75611693,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-11 07:44 UTC"
   }
 ]
