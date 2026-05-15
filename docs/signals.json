@@ -1246,5 +1246,31 @@
     "result_pct": -7.01,
     "result_time": "2026-05-14 01:37 UTC",
     "time": "2026-05-12 22:22 UTC"
+  },
+  {
+    "id": "LAYERUSDT_1778824311",
+    "symbol": "LAYER/USDT",
+    "raw_symbol": "LAYERUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 0.0953,
+    "stop_loss": 0.103896,
+    "take_profit1": 0.078107,
+    "take_profit2": 0.069511,
+    "be_target": 0.082405,
+    "sl_pct": -9.02,
+    "tp1_pct": 18.04,
+    "tp2_pct": 27.06,
+    "accum_high": 0.1031,
+    "accum_low": 0.0974,
+    "accum_bars": 39,
+    "vol_ratio": 10.06,
+    "adx": 27.4,
+    "quote_volume": 76256584.440196,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-15 05:51 UTC"
   }
 ]
