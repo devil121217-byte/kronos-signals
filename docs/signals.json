@@ -1350,5 +1350,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-15 13:43 UTC"
+  },
+  {
+    "id": "LTCUSDT_1778852906",
+    "symbol": "LTC/USDT",
+    "raw_symbol": "LTCUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 57.13,
+    "stop_loss": 59.178929,
+    "take_profit1": 53.032143,
+    "take_profit2": 50.983214,
+    "be_target": 54.056607,
+    "sl_pct": -3.59,
+    "tp1_pct": 7.17,
+    "tp2_pct": 10.76,
+    "accum_high": 58.93,
+    "accum_low": 57.32,
+    "accum_bars": 16,
+    "vol_ratio": 1.56,
+    "adx": 24.1,
+    "quote_volume": 23961132.27118,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-15 13:48 UTC"
   }
 ]
