@@ -1324,5 +1324,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-15 13:32 UTC"
+  },
+  {
+    "id": "NEARUSDT_1778852634",
+    "symbol": "NEAR/USDT",
+    "raw_symbol": "NEARUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 1.525,
+    "stop_loss": 1.603357,
+    "take_profit1": 1.368286,
+    "take_profit2": 1.289929,
+    "be_target": 1.407464,
+    "sl_pct": -5.14,
+    "tp1_pct": 10.28,
+    "tp2_pct": 15.41,
+    "accum_high": 1.593,
+    "accum_low": 1.536,
+    "accum_bars": 17,
+    "vol_ratio": 1.52,
+    "adx": 23.7,
+    "quote_volume": 22811189.7784,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-15 13:43 UTC"
   }
 ]
