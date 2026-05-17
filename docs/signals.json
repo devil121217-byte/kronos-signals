@@ -1454,5 +1454,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-17 23:34 UTC"
+  },
+  {
+    "id": "XRPUSDT_1779061167",
+    "symbol": "XRP/USDT",
+    "raw_symbol": "XRPUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 1.404,
+    "stop_loss": 1.432832,
+    "take_profit1": 1.346336,
+    "take_profit2": 1.317504,
+    "be_target": 1.360752,
+    "sl_pct": -2.05,
+    "tp1_pct": 4.11,
+    "tp2_pct": 6.16,
+    "accum_high": 1.4291,
+    "accum_low": 1.4066,
+    "accum_bars": 17,
+    "vol_ratio": 1.73,
+    "adx": 22.1,
+    "quote_volume": 75117498.07687,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-17 23:39 UTC"
   }
 ]
