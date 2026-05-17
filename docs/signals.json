@@ -1402,5 +1402,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-17 11:38 UTC"
+  },
+  {
+    "id": "ETHUSDT_1779060548",
+    "symbol": "ETH/USDT",
+    "raw_symbol": "ETHUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 2170.7,
+    "stop_loss": 2202.644286,
+    "take_profit1": 2106.811429,
+    "take_profit2": 2074.867143,
+    "be_target": 2122.783571,
+    "sl_pct": -1.47,
+    "tp1_pct": 2.94,
+    "tp2_pct": 4.41,
+    "accum_high": 2198.14,
+    "accum_low": 2174.01,
+    "accum_bars": 16,
+    "vol_ratio": 1.5,
+    "adx": 23.5,
+    "quote_volume": 239460874.708881,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-17 23:29 UTC"
   }
 ]
