@@ -1294,8 +1294,8 @@
     "adx": 26.7,
     "quote_volume": 1726256704.7499666,
     "status": "EXPIRED",
-    "result_price": 78266.69,
-    "result_pct": 1.92,
+    "result_price": 78250.0,
+    "result_pct": 1.94,
     "result_time": "2026-05-17 13:32 UTC",
     "time": "2026-05-15 13:32 UTC"
   },
@@ -1320,8 +1320,8 @@
     "adx": 23.4,
     "quote_volume": 42684539.42548,
     "status": "EXPIRED",
-    "result_price": 1.95,
-    "result_pct": 3.8,
+    "result_price": 1.949,
+    "result_pct": 3.85,
     "result_time": "2026-05-17 13:32 UTC",
     "time": "2026-05-15 13:32 UTC"
   },
