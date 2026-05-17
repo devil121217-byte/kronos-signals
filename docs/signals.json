@@ -1267,10 +1267,10 @@
     "vol_ratio": 10.06,
     "adx": 27.4,
     "quote_volume": 76256584.440196,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 0.0944,
+    "result_pct": 0.94,
+    "result_time": "2026-05-17 05:53 UTC",
     "time": "2026-05-15 05:51 UTC"
   },
   {
