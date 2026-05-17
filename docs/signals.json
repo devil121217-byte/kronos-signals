@@ -1428,5 +1428,31 @@
     "result_pct": null,
     "result_time": null,
     "time": "2026-05-17 23:29 UTC"
+  },
+  {
+    "id": "SOLUSDT_1779060851",
+    "symbol": "SOL/USDT",
+    "raw_symbol": "SOLUSDT",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "entry": 85.82,
+    "stop_loss": 87.4875,
+    "take_profit1": 82.485,
+    "take_profit2": 80.8175,
+    "be_target": 83.31875,
+    "sl_pct": -1.94,
+    "tp1_pct": 3.89,
+    "tp2_pct": 5.83,
+    "accum_high": 87.26,
+    "accum_low": 85.95,
+    "accum_bars": 17,
+    "vol_ratio": 1.58,
+    "adx": 24.0,
+    "quote_volume": 127970819.33501,
+    "status": "OPEN",
+    "result_price": null,
+    "result_pct": null,
+    "result_time": null,
+    "time": "2026-05-17 23:34 UTC"
   }
 ]
