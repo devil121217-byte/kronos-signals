@@ -1423,10 +1423,10 @@
     "vol_ratio": 1.5,
     "adx": 23.5,
     "quote_volume": 239460874.708881,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 2106.21,
+    "result_pct": 2.97,
+    "result_time": "2026-05-18 14:36 UTC",
     "time": "2026-05-17 23:29 UTC"
   },
   {
