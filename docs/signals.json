@@ -1449,10 +1449,10 @@
     "vol_ratio": 1.58,
     "adx": 24.0,
     "quote_volume": 127970819.33501,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 86.75,
+    "result_pct": -1.08,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:34 UTC"
   },
   {
@@ -1475,10 +1475,10 @@
     "vol_ratio": 1.73,
     "adx": 22.1,
     "quote_volume": 75123475.0384,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 1.3786,
+    "result_pct": 1.84,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:39 UTC"
   },
   {
@@ -1501,10 +1501,10 @@
     "vol_ratio": 6.24,
     "adx": 27.4,
     "quote_volume": 633237999.7158514,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 78054.02,
+    "result_pct": -1.07,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:44 UTC"
   },
   {
@@ -1527,10 +1527,10 @@
     "vol_ratio": 6.7,
     "adx": 26.9,
     "quote_volume": 69977177.73691,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 0.10465,
+    "result_pct": 2.55,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:44 UTC"
   },
   {
@@ -1553,10 +1553,10 @@
     "vol_ratio": 5.0,
     "adx": 27.9,
     "quote_volume": 60509183.70045,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 653.63,
+    "result_pct": -1.37,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:44 UTC"
   },
   {
@@ -1605,10 +1605,10 @@
     "vol_ratio": 6.98,
     "adx": 26.1,
     "quote_volume": 23809621.6513,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 9.71,
+    "result_pct": -2.43,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:44 UTC"
   },
   {
@@ -1631,10 +1631,10 @@
     "vol_ratio": 10.57,
     "adx": 27.7,
     "quote_volume": 22332614.1606517,
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 3.75e-06,
+    "result_pct": -3.88,
+    "result_time": "2026-05-21 01:13 UTC",
     "time": "2026-05-17 23:44 UTC"
   }
 ]
