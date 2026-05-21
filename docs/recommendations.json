@@ -1,6 +1,6 @@
 [
   {
-    "id": "LINKUSDT_1779331267",
+    "id": "LINKUSDT_1779331297",
     "symbol": "LINK/USDT",
     "raw_symbol": "LINKUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 26.21,
     "cmf": 0.2006,
     "obv_norm": 0.4777,
-    "quote_volume": 25700878.2444,
-    "price_change_pct_24h": 2.91,
+    "quote_volume": 25700999.98267,
+    "price_change_pct_24h": 3.03,
     "comment": "RVOL 1.24x is leading price, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 7.32,
