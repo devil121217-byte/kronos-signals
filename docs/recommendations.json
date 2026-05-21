@@ -1,6 +1,6 @@
 [
   {
-    "id": "LINKUSDT_1779385999",
+    "id": "LINKUSDT_1779386009",
     "symbol": "LINK/USDT",
     "raw_symbol": "LINKUSDT",
     "timeframe": "1h",
@@ -10,7 +10,7 @@
     "total_score": 57.69,
     "wyckoff_score": 66.43,
     "accumulation_score": 60.35,
-    "volume_score": 52.55,
+    "volume_score": 52.54,
     "obv_cmf_score": 78.12,
     "liquidity_score": 4.46,
     "risk_penalty": 0.0,
@@ -34,8 +34,8 @@
     "adx": 24.6,
     "cmf": 0.1141,
     "obv_norm": 0.143,
-    "quote_volume": 24559329.38307,
-    "price_change_pct_24h": 1.81,
+    "quote_volume": 24559644.13066,
+    "price_change_pct_24h": 1.79,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 9.01,
