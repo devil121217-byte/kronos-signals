@@ -1,6 +1,6 @@
 [
   {
-    "id": "SOLUSDT_1779391586",
+    "id": "SOLUSDT_1779391641",
     "symbol": "SOL/USDT",
     "raw_symbol": "SOLUSDT",
     "timeframe": "1h",
@@ -11,8 +11,8 @@
     "wyckoff_score": 66.33,
     "accumulation_score": 65.2,
     "volume_score": 41.93,
-    "obv_cmf_score": 36.76,
-    "liquidity_score": 53.67,
+    "obv_cmf_score": 36.82,
+    "liquidity_score": 53.66,
     "risk_penalty": 0.0,
     "entry": 87.51,
     "entry_zone": "87.189016 ~ 87.56",
@@ -29,13 +29,13 @@
     "accum_low": 83.5,
     "accum_bars": 128,
     "range_pct": 5.26,
-    "rvol": 0.4,
-    "vol_ratio": 0.4,
+    "rvol": 0.41,
+    "vol_ratio": 0.41,
     "adx": 34.79,
-    "cmf": 0.0092,
-    "obv_norm": 0.1483,
-    "quote_volume": 236489433.30409,
-    "price_change_pct_24h": 1.63,
+    "cmf": 0.0093,
+    "obv_norm": 0.1484,
+    "quote_volume": 236415821.27545,
+    "price_change_pct_24h": 1.61,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 9.7,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-21 19:26 UTC"
+    "time": "2026-05-21 19:27 UTC"
   }
 ]
