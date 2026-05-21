@@ -1,6 +1,6 @@
 [
   {
-    "id": "LINKUSDT_1779330956",
+    "id": "LINKUSDT_1779330986",
     "symbol": "LINK/USDT",
     "raw_symbol": "LINKUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 65.25,
     "accumulation_score": 61.51,
     "volume_score": 65.0,
-    "obv_cmf_score": 83.7,
+    "obv_cmf_score": 83.71,
     "liquidity_score": 5.43,
     "risk_penalty": 0.0,
     "entry": 9.743,
@@ -34,8 +34,8 @@
     "adx": 26.17,
     "cmf": 0.1924,
     "obv_norm": 0.478,
-    "quote_volume": 25681381.59353,
-    "price_change_pct_24h": 3.0,
+    "quote_volume": 25681783.18667,
+    "price_change_pct_24h": 2.99,
     "comment": "RVOL 1.22x is leading price, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 7.32,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-21 02:35 UTC"
+    "time": "2026-05-21 02:36 UTC"
   }
 ]
