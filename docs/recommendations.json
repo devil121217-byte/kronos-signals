@@ -1,6 +1,6 @@
 [
   {
-    "id": "SOLUSDT_1779391886",
+    "id": "SOLUSDT_1779391896",
     "symbol": "SOL/USDT",
     "raw_symbol": "SOLUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 34.79,
     "cmf": 0.0078,
     "obv_norm": 0.1485,
-    "quote_volume": 236325063.56628,
-    "price_change_pct_24h": 1.4,
+    "quote_volume": 236309379.1511,
+    "price_change_pct_24h": 1.41,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 9.7,
