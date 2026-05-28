@@ -1,6 +1,6 @@
 [
   {
-    "id": "XRPUSDT_1779994259",
+    "id": "XRPUSDT_1779994285",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -8,11 +8,11 @@
     "state": "TRIGGER",
     "state_rank": 0,
     "total_score": 46.22,
-    "wyckoff_score": 13.3,
+    "wyckoff_score": 13.29,
     "accumulation_score": 43.23,
     "volume_score": 62.67,
-    "obv_cmf_score": 75.9,
-    "liquidity_score": 45.07,
+    "obv_cmf_score": 75.91,
+    "liquidity_score": 45.08,
     "risk_penalty": 0.0,
     "entry": 1.3358,
     "entry_zone": "1.331799 ~ 1.341474",
@@ -29,12 +29,12 @@
     "accum_low": 1.2677,
     "accum_bars": 24,
     "range_pct": 5.15,
-    "rvol": 1.33,
-    "vol_ratio": 1.33,
+    "rvol": 1.34,
+    "vol_ratio": 1.34,
     "adx": 44.68,
-    "cmf": 0.2414,
+    "cmf": 0.2416,
     "obv_norm": 0.1322,
-    "quote_volume": 159243379.70845,
+    "quote_volume": 159260368.26596,
     "price_change_pct_24h": 0.83,
     "comment": "OBV and CMF confirm money flow, price is retesting the box ceiling",
     "wyckoff_detail": {
@@ -43,12 +43,12 @@
       "automatic_rally": 0.0,
       "secondary_test": 0.0,
       "spring": 0.0,
-      "lps": 13.3
+      "lps": 13.29
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 18:50 UTC"
+    "time": "2026-05-28 18:51 UTC"
   }
 ]
