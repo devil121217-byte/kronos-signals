@@ -1,6 +1,6 @@
 [
   {
-    "id": "PEPEUSDT_1779938923",
+    "id": "PEPEUSDT_1779938961",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
@@ -34,7 +34,7 @@
     "adx": 34.93,
     "cmf": 0.1804,
     "obv_norm": 0.0896,
-    "quote_volume": 24545078.5274572,
+    "quote_volume": 24544469.70722205,
     "price_change_pct_24h": -3.12,
     "comment": "Spring/LPS structure quality is strong, late accumulation watch zone",
     "wyckoff_detail": {
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 03:28 UTC"
+    "time": "2026-05-28 03:29 UTC"
   }
 ]
