@@ -1,16 +1,16 @@
 [
   {
-    "id": "XRPUSDT_1779987466",
+    "id": "XRPUSDT_1779987487",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 42.25,
+    "total_score": 42.2,
     "wyckoff_score": 33.7,
     "accumulation_score": 42.7,
-    "volume_score": 60.28,
+    "volume_score": 60.06,
     "obv_cmf_score": 33.0,
     "liquidity_score": 44.55,
     "risk_penalty": 0.0,
@@ -29,13 +29,13 @@
     "accum_low": 1.2677,
     "accum_bars": 156,
     "range_pct": 8.1,
-    "rvol": 2.0,
-    "vol_ratio": 2.0,
+    "rvol": 2.01,
+    "vol_ratio": 2.01,
     "adx": 38.89,
-    "cmf": 0.1477,
+    "cmf": 0.1478,
     "obv_norm": -0.0174,
-    "quote_volume": 155439237.98349,
-    "price_change_pct_24h": -0.55,
+    "quote_volume": 155465217.79366,
+    "price_change_pct_24h": -0.53,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 16:57 UTC"
+    "time": "2026-05-28 16:58 UTC"
   }
 ]
