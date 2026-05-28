@@ -1,18 +1,18 @@
 [
   {
-    "id": "XRPUSDT_1779995246",
+    "id": "XRPUSDT_1779995354",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 42.63,
-    "wyckoff_score": 18.48,
+    "total_score": 42.62,
+    "wyckoff_score": 18.47,
     "accumulation_score": 54.01,
     "volume_score": 25.0,
-    "obv_cmf_score": 93.78,
-    "liquidity_score": 45.16,
+    "obv_cmf_score": 93.71,
+    "liquidity_score": 45.17,
     "risk_penalty": 0.0,
     "entry": 1.3296,
     "entry_zone": "1.32462 ~ 1.331808",
@@ -29,13 +29,13 @@
     "accum_low": 1.2677,
     "accum_bars": 24,
     "range_pct": 5.43,
-    "rvol": 0.16,
-    "vol_ratio": 0.16,
+    "rvol": 0.19,
+    "vol_ratio": 0.19,
     "adx": 47.65,
-    "cmf": 0.2365,
-    "obv_norm": 0.2196,
-    "quote_volume": 159858990.5387,
-    "price_change_pct_24h": 0.08,
+    "cmf": 0.2357,
+    "obv_norm": 0.2193,
+    "quote_volume": 159948070.50276,
+    "price_change_pct_24h": 0.06,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -43,12 +43,12 @@
       "automatic_rally": 0.0,
       "secondary_test": 0.0,
       "spring": 0.0,
-      "lps": 18.48
+      "lps": 18.47
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 19:07 UTC"
+    "time": "2026-05-28 19:09 UTC"
   }
 ]
