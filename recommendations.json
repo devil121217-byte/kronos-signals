@@ -1,6 +1,6 @@
 [
   {
-    "id": "PEPEUSDT_1779940048",
+    "id": "PEPEUSDT_1779940058",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
@@ -32,10 +32,10 @@
     "rvol": 1.87,
     "vol_ratio": 1.87,
     "adx": 34.93,
-    "cmf": 0.1485,
+    "cmf": 0.1484,
     "obv_norm": 0.0821,
-    "quote_volume": 25057614.96560371,
-    "price_change_pct_24h": -2.85,
+    "quote_volume": 25057632.8274982,
+    "price_change_pct_24h": -3.12,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
