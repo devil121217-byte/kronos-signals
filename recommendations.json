@@ -1,6 +1,6 @@
 [
   {
-    "id": "XRPUSDT_1779996292",
+    "id": "XRPUSDT_1779996307",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -11,8 +11,8 @@
     "wyckoff_score": 18.35,
     "accumulation_score": 54.01,
     "volume_score": 25.0,
-    "obv_cmf_score": 93.15,
-    "liquidity_score": 45.12,
+    "obv_cmf_score": 93.14,
+    "liquidity_score": 45.11,
     "risk_penalty": 0.0,
     "entry": 1.3257,
     "entry_zone": "1.320507 ~ 1.330244",
@@ -34,8 +34,8 @@
     "adx": 47.08,
     "cmf": 0.2279,
     "obv_norm": 0.2165,
-    "quote_volume": 159538984.99997,
-    "price_change_pct_24h": -0.56,
+    "quote_volume": 159538034.11843,
+    "price_change_pct_24h": -0.55,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 19:24 UTC"
+    "time": "2026-05-28 19:25 UTC"
   }
 ]
