@@ -1,18 +1,18 @@
 [
   {
-    "id": "PEPEUSDT_1779939122",
+    "id": "PEPEUSDT_1779939236",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 43.91,
-    "wyckoff_score": 69.97,
+    "total_score": 43.89,
+    "wyckoff_score": 69.95,
     "accumulation_score": 69.72,
     "volume_score": 30.0,
-    "obv_cmf_score": 46.89,
-    "liquidity_score": 4.53,
+    "obv_cmf_score": 46.8,
+    "liquidity_score": 4.57,
     "risk_penalty": 8.0,
     "entry": 3.42e-06,
     "entry_zone": "0.0000034372 ~ 0.0000035145",
@@ -29,13 +29,13 @@
     "accum_low": 3.41e-06,
     "accum_bars": 24,
     "range_pct": 5.4,
-    "rvol": 1.48,
-    "vol_ratio": 1.48,
+    "rvol": 1.51,
+    "vol_ratio": 1.51,
     "adx": 34.93,
-    "cmf": 0.1794,
-    "obv_norm": 0.0881,
-    "quote_volume": 24641255.84594214,
-    "price_change_pct_24h": -3.12,
+    "cmf": 0.1791,
+    "obv_norm": 0.0877,
+    "quote_volume": 24678281.40998075,
+    "price_change_pct_24h": -2.84,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -43,12 +43,12 @@
       "automatic_rally": 15.0,
       "secondary_test": 15.0,
       "spring": 18.0,
-      "lps": 1.97
+      "lps": 1.95
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 03:32 UTC"
+    "time": "2026-05-28 03:33 UTC"
   }
 ]
