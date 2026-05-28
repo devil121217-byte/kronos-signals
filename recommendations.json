@@ -1,6 +1,6 @@
 [
   {
-    "id": "PEPEUSDT_1779939588",
+    "id": "PEPEUSDT_1779939602",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
@@ -34,7 +34,7 @@
     "adx": 34.93,
     "cmf": 0.1531,
     "obv_norm": 0.0852,
-    "quote_volume": 24830857.09783551,
+    "quote_volume": 24831401.30234757,
     "price_change_pct_24h": -2.85,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 03:39 UTC"
+    "time": "2026-05-28 03:40 UTC"
   }
 ]
