@@ -1,18 +1,18 @@
 [
   {
-    "id": "PEPEUSDT_1779938810",
+    "id": "PEPEUSDT_1779938923",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 43.99,
-    "wyckoff_score": 70.1,
+    "total_score": 43.97,
+    "wyckoff_score": 70.07,
     "accumulation_score": 69.72,
     "volume_score": 30.0,
-    "obv_cmf_score": 47.28,
-    "liquidity_score": 4.42,
+    "obv_cmf_score": 47.19,
+    "liquidity_score": 4.45,
     "risk_penalty": 8.0,
     "entry": 3.42e-06,
     "entry_zone": "0.0000034372 ~ 0.0000035145",
@@ -29,13 +29,13 @@
     "accum_low": 3.41e-06,
     "accum_bars": 24,
     "range_pct": 5.4,
-    "rvol": 1.36,
-    "vol_ratio": 1.36,
+    "rvol": 1.39,
+    "vol_ratio": 1.39,
     "adx": 34.93,
-    "cmf": 0.1807,
-    "obv_norm": 0.0901,
-    "quote_volume": 24514168.43993585,
-    "price_change_pct_24h": -2.84,
+    "cmf": 0.1804,
+    "obv_norm": 0.0896,
+    "quote_volume": 24545078.5274572,
+    "price_change_pct_24h": -3.12,
     "comment": "Spring/LPS structure quality is strong, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -43,12 +43,12 @@
       "automatic_rally": 15.0,
       "secondary_test": 15.0,
       "spring": 18.0,
-      "lps": 2.1
+      "lps": 2.07
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-28 03:26 UTC"
+    "time": "2026-05-28 03:28 UTC"
   }
 ]
