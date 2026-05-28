@@ -1,6 +1,6 @@
 [
   {
-    "id": "PEPEUSDT_1779939736",
+    "id": "PEPEUSDT_1779939746",
     "symbol": "PEPE/USDT",
     "raw_symbol": "PEPEUSDT",
     "timeframe": "1h",
@@ -8,10 +8,10 @@
     "state": "READY",
     "state_rank": 2,
     "total_score": 43.71,
-    "wyckoff_score": 69.69,
+    "wyckoff_score": 69.68,
     "accumulation_score": 69.72,
     "volume_score": 30.0,
-    "obv_cmf_score": 45.98,
+    "obv_cmf_score": 45.97,
     "liquidity_score": 4.8,
     "risk_penalty": 8.0,
     "entry": 3.42e-06,
@@ -34,8 +34,8 @@
     "adx": 34.93,
     "cmf": 0.1764,
     "obv_norm": 0.0837,
-    "quote_volume": 24944305.56863569,
-    "price_change_pct_24h": -2.85,
+    "quote_volume": 24944425.90477621,
+    "price_change_pct_24h": -2.56,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -43,7 +43,7 @@
       "automatic_rally": 15.0,
       "secondary_test": 15.0,
       "spring": 18.0,
-      "lps": 1.69
+      "lps": 1.68
     },
     "status": "WATCH",
     "result_price": null,
