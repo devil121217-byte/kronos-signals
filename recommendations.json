@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780098142",
+    "id": "DOGEUSDT_1780098155",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 22.45,
     "cmf": 0.1593,
     "obv_norm": 0.2731,
-    "quote_volume": 47420632.67592,
-    "price_change_pct_24h": -0.04,
+    "quote_volume": 47426892.97594,
+    "price_change_pct_24h": -0.05,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -52,7 +52,7 @@
     "time": "2026-05-29 23:42 UTC"
   },
   {
-    "id": "XRPUSDT_1780098140",
+    "id": "XRPUSDT_1780098153",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -86,7 +86,7 @@
     "adx": 15.03,
     "cmf": 0.1148,
     "obv_norm": 0.2687,
-    "quote_volume": 131651905.16578,
+    "quote_volume": 131655123.3867,
     "price_change_pct_24h": 0.7,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -104,7 +104,7 @@
     "time": "2026-05-29 23:42 UTC"
   },
   {
-    "id": "ETHUSDT_1780098138",
+    "id": "ETHUSDT_1780098152",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -138,8 +138,8 @@
     "adx": 20.94,
     "cmf": 0.1071,
     "obv_norm": 0.1633,
-    "quote_volume": 571550551.684634,
-    "price_change_pct_24h": 0.1,
+    "quote_volume": 571623907.523858,
+    "price_change_pct_24h": 0.09,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
