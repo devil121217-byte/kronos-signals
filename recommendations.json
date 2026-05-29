@@ -1,6 +1,6 @@
 [
   {
-    "id": "ADAUSDT_1780028360",
+    "id": "ADAUSDT_1780028371",
     "symbol": "ADA/USDT",
     "raw_symbol": "ADAUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 23.22,
     "cmf": 0.106,
     "obv_norm": 0.4179,
-    "quote_volume": 25484271.31343,
-    "price_change_pct_24h": 1.08,
+    "quote_volume": 25475072.25006,
+    "price_change_pct_24h": 1.04,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 2.21,
