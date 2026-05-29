@@ -1,6 +1,6 @@
 [
   {
-    "id": "ADAUSDT_1780030239",
+    "id": "ADAUSDT_1780030285",
     "symbol": "ADA/USDT",
     "raw_symbol": "ADAUSDT",
     "timeframe": "1h",
@@ -12,7 +12,7 @@
     "accumulation_score": 70.0,
     "volume_score": 28.95,
     "obv_cmf_score": 80.0,
-    "liquidity_score": 4.41,
+    "liquidity_score": 4.38,
     "risk_penalty": 8.0,
     "entry": 0.234,
     "entry_zone": "0.233335 ~ 0.234694",
@@ -32,10 +32,10 @@
     "rvol": 0.3,
     "vol_ratio": 0.3,
     "adx": 23.22,
-    "cmf": 0.117,
+    "cmf": 0.1171,
     "obv_norm": 0.42,
-    "quote_volume": 24506332.3286,
-    "price_change_pct_24h": 1.39,
+    "quote_volume": 24472283.55501,
+    "price_change_pct_24h": 1.43,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 2.21,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-29 04:50 UTC"
+    "time": "2026-05-29 04:51 UTC"
   }
 ]
