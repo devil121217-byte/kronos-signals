@@ -1,6 +1,6 @@
 [
   {
-    "id": "XRPUSDT_1780034850",
+    "id": "XRPUSDT_1780034861",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 16.86,
     "cmf": 0.2061,
     "obv_norm": 0.4925,
-    "quote_volume": 115190790.53651,
-    "price_change_pct_24h": 2.59,
+    "quote_volume": 115190320.48317,
+    "price_change_pct_24h": 2.57,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 4.13,
@@ -52,7 +52,7 @@
     "time": "2026-05-29 06:07 UTC"
   },
   {
-    "id": "ADAUSDT_1780034854",
+    "id": "ADAUSDT_1780034865",
     "symbol": "ADA/USDT",
     "raw_symbol": "ADAUSDT",
     "timeframe": "1h",
@@ -64,7 +64,7 @@
     "accumulation_score": 76.07,
     "volume_score": 30.0,
     "obv_cmf_score": 80.0,
-    "liquidity_score": 2.31,
+    "liquidity_score": 2.32,
     "risk_penalty": 0.0,
     "entry": 0.236,
     "entry_zone": "0.235298 ~ 0.236511",
@@ -84,9 +84,9 @@
     "rvol": 0.09,
     "vol_ratio": 0.09,
     "adx": 19.71,
-    "cmf": 0.1986,
+    "cmf": 0.1987,
     "obv_norm": 0.4397,
-    "quote_volume": 22243638.50043,
+    "quote_volume": 22252887.66503,
     "price_change_pct_24h": 2.74,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
