@@ -1,6 +1,6 @@
 [
   {
-    "id": "FETUSDT_1780013520",
+    "id": "FETUSDT_1780013547",
     "symbol": "FET/USDT",
     "raw_symbol": "FETUSDT",
     "timeframe": "1h",
@@ -32,10 +32,10 @@
     "rvol": 0.09,
     "vol_ratio": 0.09,
     "adx": 18.01,
-    "cmf": 0.1035,
+    "cmf": 0.1034,
     "obv_norm": 0.265,
-    "quote_volume": 21169687.23457,
-    "price_change_pct_24h": -4.45,
+    "quote_volume": 21169633.56746,
+    "price_change_pct_24h": -4.36,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
