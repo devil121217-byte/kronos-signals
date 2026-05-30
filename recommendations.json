@@ -1,6 +1,6 @@
 [
   {
-    "id": "XRPUSDT_1780128863",
+    "id": "XRPUSDT_1780128876",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 18.55,
     "cmf": 0.1785,
     "obv_norm": 0.3632,
-    "quote_volume": 159417544.49236,
-    "price_change_pct_24h": 1.75,
+    "quote_volume": 159416784.56188,
+    "price_change_pct_24h": 1.77,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -52,7 +52,7 @@
     "time": "2026-05-30 08:14 UTC"
   },
   {
-    "id": "DOGEUSDT_1780128865",
+    "id": "DOGEUSDT_1780128878",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -86,8 +86,8 @@
     "adx": 17.66,
     "cmf": 0.2305,
     "obv_norm": 0.2202,
-    "quote_volume": 54677189.49117,
-    "price_change_pct_24h": 1.54,
+    "quote_volume": 54676161.18679,
+    "price_change_pct_24h": 1.55,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -104,7 +104,7 @@
     "time": "2026-05-30 08:14 UTC"
   },
   {
-    "id": "ETHUSDT_1780128862",
+    "id": "ETHUSDT_1780128875",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -115,7 +115,7 @@
     "wyckoff_score": 30.34,
     "accumulation_score": 69.56,
     "volume_score": 6.48,
-    "obv_cmf_score": 98.26,
+    "obv_cmf_score": 98.25,
     "liquidity_score": 70.98,
     "risk_penalty": 0.0,
     "entry": 2014.65,
@@ -138,7 +138,7 @@
     "adx": 24.26,
     "cmf": 0.212,
     "obv_norm": 0.3181,
-    "quote_volume": 524739455.807291,
+    "quote_volume": 524734024.235454,
     "price_change_pct_24h": 0.36,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -156,7 +156,7 @@
     "time": "2026-05-30 08:14 UTC"
   },
   {
-    "id": "BNBUSDT_1780128863",
+    "id": "BNBUSDT_1780128876",
     "symbol": "BNB/USDT",
     "raw_symbol": "BNBUSDT",
     "timeframe": "1h",
@@ -168,19 +168,19 @@
     "accumulation_score": 56.09,
     "volume_score": 45.0,
     "obv_cmf_score": 100.0,
-    "liquidity_score": 41.47,
+    "liquidity_score": 41.48,
     "risk_penalty": 0.0,
-    "entry": 670.52,
-    "entry_zone": "668.579962 ~ 670.87875",
+    "entry": 670.58,
+    "entry_zone": "668.639962 ~ 670.87875",
     "stop_loss": 629.162467,
-    "take_profit1": 753.235066,
-    "take_profit2": 794.592599,
-    "be_target": 732.5563,
+    "take_profit1": 753.415066,
+    "take_profit2": 794.832599,
+    "be_target": 732.7063,
     "invalidation": 629.162467,
     "breakout_level": 674.25,
-    "sl_pct": -6.17,
-    "tp1_pct": 12.34,
-    "tp2_pct": 18.5,
+    "sl_pct": -6.18,
+    "tp1_pct": 12.35,
+    "tp2_pct": 18.53,
     "accum_high": 674.25,
     "accum_low": 630.86,
     "accum_bars": 28,
@@ -188,10 +188,10 @@
     "rvol": 0.81,
     "vol_ratio": 0.81,
     "adx": 57.18,
-    "cmf": 0.3916,
-    "obv_norm": 0.5778,
-    "quote_volume": 134912679.80223,
-    "price_change_pct_24h": 5.22,
+    "cmf": 0.3923,
+    "obv_norm": 0.5777,
+    "quote_volume": 134929450.52791,
+    "price_change_pct_24h": 5.25,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.87,
@@ -208,7 +208,7 @@
     "time": "2026-05-30 08:14 UTC"
   },
   {
-    "id": "LINKUSDT_1780128869",
+    "id": "LINKUSDT_1780128881",
     "symbol": "LINK/USDT",
     "raw_symbol": "LINKUSDT",
     "timeframe": "1h",
@@ -242,7 +242,7 @@
     "adx": 18.74,
     "cmf": 0.2392,
     "obv_norm": 0.2588,
-    "quote_volume": 23326740.17306,
+    "quote_volume": 23326383.84541,
     "price_change_pct_24h": 1.55,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
