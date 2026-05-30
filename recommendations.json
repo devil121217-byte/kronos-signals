@@ -1,6 +1,6 @@
 [
   {
-    "id": "ETHUSDT_1780180964",
+    "id": "ETHUSDT_1780180977",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 66.43,
     "accumulation_score": 87.65,
     "volume_score": 17.53,
-    "obv_cmf_score": 65.28,
+    "obv_cmf_score": 65.27,
     "liquidity_score": 51.33,
     "risk_penalty": 0.0,
     "entry": 2022.12,
@@ -34,7 +34,7 @@
     "adx": 21.29,
     "cmf": 0.0495,
     "obv_norm": 0.5128,
-    "quote_volume": 212365235.259491,
+    "quote_volume": 212367336.114301,
     "price_change_pct_24h": 0.42,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -52,7 +52,7 @@
     "time": "2026-05-30 22:42 UTC"
   },
   {
-    "id": "SOLUSDT_1780180965",
+    "id": "SOLUSDT_1780180978",
     "symbol": "SOL/USDT",
     "raw_symbol": "SOLUSDT",
     "timeframe": "1h",
@@ -86,7 +86,7 @@
     "adx": 25.74,
     "cmf": 0.1177,
     "obv_norm": 0.3137,
-    "quote_volume": 87687771.99607,
+    "quote_volume": 87688449.87471,
     "price_change_pct_24h": 0.81,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -104,7 +104,7 @@
     "time": "2026-05-30 22:42 UTC"
   },
   {
-    "id": "DOGEUSDT_1780180968",
+    "id": "DOGEUSDT_1780180981",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -115,7 +115,7 @@
     "wyckoff_score": 71.02,
     "accumulation_score": 79.02,
     "volume_score": 27.25,
-    "obv_cmf_score": 24.21,
+    "obv_cmf_score": 24.2,
     "liquidity_score": 13.82,
     "risk_penalty": 0.0,
     "entry": 0.10056,
@@ -138,8 +138,8 @@
     "adx": 18.13,
     "cmf": -0.0109,
     "obv_norm": 0.1354,
-    "quote_volume": 37787057.98994,
-    "price_change_pct_24h": 0.79,
+    "quote_volume": 37787146.71248,
+    "price_change_pct_24h": 0.76,
     "comment": "quiet accumulation box is stable, Spring/LPS structure quality is strong, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 3.91,
@@ -153,10 +153,10 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-30 22:42 UTC"
+    "time": "2026-05-30 22:43 UTC"
   },
   {
-    "id": "BTCUSDT_1780180963",
+    "id": "BTCUSDT_1780180976",
     "symbol": "BTC/USDT",
     "raw_symbol": "BTCUSDT",
     "timeframe": "1h",
@@ -167,15 +167,15 @@
     "wyckoff_score": 34.26,
     "accumulation_score": 40.0,
     "volume_score": 17.86,
-    "obv_cmf_score": 77.06,
+    "obv_cmf_score": 77.05,
     "liquidity_score": 72.16,
     "risk_penalty": 0.0,
-    "entry": 73831.52,
-    "entry_zone": "73765.136426 ~ 73889.605627",
+    "entry": 73831.53,
+    "entry_zone": "73765.146426 ~ 73889.615627",
     "stop_loss": 72454.404373,
-    "take_profit1": 76585.751254,
-    "take_profit2": 77962.866881,
-    "be_target": 75897.19344,
+    "take_profit1": 76585.781254,
+    "take_profit2": 77962.906881,
+    "be_target": 75897.21844,
     "invalidation": 72454.404373,
     "breakout_level": 74775.5,
     "sl_pct": -1.87,
@@ -190,7 +190,7 @@
     "adx": 26.21,
     "cmf": 0.0899,
     "obv_norm": 0.2878,
-    "quote_volume": 553898118.2219352,
+    "quote_volume": 553895097.2285732,
     "price_change_pct_24h": 0.5,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
