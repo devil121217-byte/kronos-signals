@@ -1891,10 +1891,10 @@
       "spring": 0.0,
       "lps": 14.64
     },
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 727.27,
+    "result_pct": 10.37,
+    "result_time": "2026-05-30 21:45 UTC",
     "time": "2026-05-30 03:22 UTC"
   },
   {
