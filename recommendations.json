@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780134522",
+    "id": "DOGEUSDT_1780134537",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 14.92,
     "cmf": 0.2196,
     "obv_norm": 0.1979,
-    "quote_volume": 54836192.82786,
-    "price_change_pct_24h": 1.12,
+    "quote_volume": 54831986.76547,
+    "price_change_pct_24h": 1.15,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -52,7 +52,7 @@
     "time": "2026-05-30 09:48 UTC"
   },
   {
-    "id": "BNBUSDT_1780134520",
+    "id": "BNBUSDT_1780134535",
     "symbol": "BNB/USDT",
     "raw_symbol": "BNBUSDT",
     "timeframe": "1h",
@@ -86,7 +86,7 @@
     "adx": 61.06,
     "cmf": 0.4244,
     "obv_norm": 0.6767,
-    "quote_volume": 141145550.51618,
+    "quote_volume": 141148325.58224,
     "price_change_pct_24h": 5.45,
     "comment": "RVOL 1.28x is leading price, OBV and CMF confirm money flow, price is retesting the box ceiling",
     "wyckoff_detail": {
@@ -104,7 +104,7 @@
     "time": "2026-05-30 09:48 UTC"
   },
   {
-    "id": "XRPUSDT_1780134519",
+    "id": "XRPUSDT_1780134534",
     "symbol": "XRP/USDT",
     "raw_symbol": "XRPUSDT",
     "timeframe": "1h",
@@ -116,7 +116,7 @@
     "accumulation_score": 60.0,
     "volume_score": 30.0,
     "obv_cmf_score": 99.09,
-    "liquidity_score": 44.49,
+    "liquidity_score": 44.48,
     "risk_penalty": 0.0,
     "entry": 1.3435,
     "entry_zone": "1.339719 ~ 1.346809",
@@ -138,8 +138,8 @@
     "adx": 17.59,
     "cmf": 0.1718,
     "obv_norm": 0.3739,
-    "quote_volume": 154980919.66902,
-    "price_change_pct_24h": 1.39,
+    "quote_volume": 154972991.403,
+    "price_change_pct_24h": 1.4,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -156,7 +156,7 @@
     "time": "2026-05-30 09:48 UTC"
   },
   {
-    "id": "ETHUSDT_1780134518",
+    "id": "ETHUSDT_1780134533",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -166,16 +166,16 @@
     "total_score": 49.13,
     "wyckoff_score": 30.86,
     "accumulation_score": 72.48,
-    "volume_score": 12.19,
-    "obv_cmf_score": 82.14,
+    "volume_score": 12.17,
+    "obv_cmf_score": 82.13,
     "liquidity_score": 69.94,
     "risk_penalty": 0.0,
-    "entry": 2016.13,
-    "entry_zone": "2015.0405 ~ 2019.159586",
+    "entry": 2016.12,
+    "entry_zone": "2015.0405 ~ 2019.149586",
     "stop_loss": 1973.450414,
-    "take_profit1": 2101.489172,
-    "take_profit2": 2144.168758,
-    "be_target": 2080.149379,
+    "take_profit1": 2101.459172,
+    "take_profit2": 2144.128758,
+    "be_target": 2080.124379,
     "invalidation": 1973.450414,
     "breakout_level": 2046.59,
     "sl_pct": -2.12,
@@ -190,8 +190,8 @@
     "adx": 24.5,
     "cmf": 0.2041,
     "obv_norm": 0.3075,
-    "quote_volume": 500118606.042793,
-    "price_change_pct_24h": 0.14,
+    "quote_volume": 500111224.178452,
+    "price_change_pct_24h": 0.15,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 1.52,
@@ -208,7 +208,7 @@
     "time": "2026-05-30 09:48 UTC"
   },
   {
-    "id": "LINKUSDT_1780134525",
+    "id": "LINKUSDT_1780134540",
     "symbol": "LINK/USDT",
     "raw_symbol": "LINKUSDT",
     "timeframe": "1h",
@@ -240,10 +240,10 @@
     "rvol": 0.19,
     "vol_ratio": 0.19,
     "adx": 15.66,
-    "cmf": 0.2342,
+    "cmf": 0.2343,
     "obv_norm": 0.2568,
-    "quote_volume": 23050807.64576,
-    "price_change_pct_24h": 1.32,
+    "quote_volume": 23050786.59887,
+    "price_change_pct_24h": 1.31,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -257,6 +257,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-30 09:48 UTC"
+    "time": "2026-05-30 09:49 UTC"
   }
 ]
