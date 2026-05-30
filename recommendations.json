@@ -1,6 +1,6 @@
 [
   {
-    "id": "ETHUSDT_1780176674",
+    "id": "ETHUSDT_1780176685",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -34,7 +34,7 @@
     "adx": 22.58,
     "cmf": 0.1276,
     "obv_norm": 0.4998,
-    "quote_volume": 220754234.776472,
+    "quote_volume": 220750546.262403,
     "price_change_pct_24h": 0.89,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -52,7 +52,7 @@
     "time": "2026-05-30 21:31 UTC"
   },
   {
-    "id": "DOGEUSDT_1780176678",
+    "id": "DOGEUSDT_1780176688",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -86,8 +86,8 @@
     "adx": 14.01,
     "cmf": 0.1608,
     "obv_norm": 0.1785,
-    "quote_volume": 36838961.57116,
-    "price_change_pct_24h": 1.55,
+    "quote_volume": 36838699.81838,
+    "price_change_pct_24h": 1.54,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 2.82,
@@ -104,7 +104,7 @@
     "time": "2026-05-30 21:31 UTC"
   },
   {
-    "id": "SOLUSDT_1780176675",
+    "id": "SOLUSDT_1780176686",
     "symbol": "SOL/USDT",
     "raw_symbol": "SOLUSDT",
     "timeframe": "1h",
@@ -136,10 +136,10 @@
     "rvol": 0.21,
     "vol_ratio": 0.21,
     "adx": 25.95,
-    "cmf": 0.1892,
+    "cmf": 0.1891,
     "obv_norm": 0.3251,
-    "quote_volume": 88520639.0485,
-    "price_change_pct_24h": 1.32,
+    "quote_volume": 88523951.97035,
+    "price_change_pct_24h": 1.34,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 4.46,
@@ -156,7 +156,7 @@
     "time": "2026-05-30 21:31 UTC"
   },
   {
-    "id": "TRXUSDT_1780176678",
+    "id": "TRXUSDT_1780176688",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -190,8 +190,8 @@
     "adx": 44.1,
     "cmf": 0.2488,
     "obv_norm": 0.1564,
-    "quote_volume": 40533924.97323,
-    "price_change_pct_24h": 0.75,
+    "quote_volume": 40533892.24974,
+    "price_change_pct_24h": 0.81,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 5.89,
@@ -208,7 +208,7 @@
     "time": "2026-05-30 21:31 UTC"
   },
   {
-    "id": "BTCUSDT_1780176673",
+    "id": "BTCUSDT_1780176684",
     "symbol": "BTC/USDT",
     "raw_symbol": "BTCUSDT",
     "timeframe": "1h",
@@ -242,8 +242,8 @@
     "adx": 29.15,
     "cmf": 0.1935,
     "obv_norm": 0.2714,
-    "quote_volume": 565598197.8713254,
-    "price_change_pct_24h": 0.64,
+    "quote_volume": 565595354.080444,
+    "price_change_pct_24h": 0.63,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
