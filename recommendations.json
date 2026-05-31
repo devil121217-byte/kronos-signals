@@ -1,6 +1,6 @@
 [
   {
-    "id": "ETHUSDT_1780243065",
+    "id": "ETHUSDT_1780243082",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -34,7 +34,7 @@
     "adx": 36.9,
     "cmf": -0.1478,
     "obv_norm": -0.0963,
-    "quote_volume": 218060846.963563,
+    "quote_volume": 218041670.760061,
     "price_change_pct_24h": -0.78,
     "comment": "quiet accumulation box is stable, late accumulation watch zone",
     "wyckoff_detail": {
@@ -49,10 +49,10 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-31 15:57 UTC"
+    "time": "2026-05-31 15:58 UTC"
   },
   {
-    "id": "TRXUSDT_1780243068",
+    "id": "TRXUSDT_1780243086",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -86,7 +86,7 @@
     "adx": 32.52,
     "cmf": 0.154,
     "obv_norm": 0.045,
-    "quote_volume": 35194965.53252,
+    "quote_volume": 35194489.77935,
     "price_change_pct_24h": 0.32,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
@@ -101,6 +101,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-31 15:57 UTC"
+    "time": "2026-05-31 15:58 UTC"
   }
 ]
