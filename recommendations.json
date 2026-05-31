@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780256627",
+    "id": "TRXUSDT_1780256748",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -8,11 +8,11 @@
     "state": "READY",
     "state_rank": 2,
     "total_score": 47.86,
-    "wyckoff_score": 66.68,
+    "wyckoff_score": 66.65,
     "accumulation_score": 47.65,
     "volume_score": 23.81,
-    "obv_cmf_score": 68.0,
-    "liquidity_score": 9.82,
+    "obv_cmf_score": 68.01,
+    "liquidity_score": 9.85,
     "risk_penalty": 0.0,
     "entry": 0.3499,
     "entry_zone": "0.349046 ~ 0.349511",
@@ -29,13 +29,13 @@
     "accum_low": 0.3399,
     "accum_bars": 60,
     "range_pct": 3.15,
-    "rvol": 0.72,
-    "vol_ratio": 0.72,
+    "rvol": 0.76,
+    "vol_ratio": 0.76,
     "adx": 35.88,
-    "cmf": 0.068,
+    "cmf": 0.0681,
     "obv_norm": 0.2369,
-    "quote_volume": 31426451.69853,
-    "price_change_pct_24h": 0.72,
+    "quote_volume": 31478534.07576,
+    "price_change_pct_24h": 0.63,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 5.18,
@@ -43,12 +43,12 @@
       "automatic_rally": 15.0,
       "secondary_test": 15.0,
       "spring": 0.0,
-      "lps": 19.34
+      "lps": 19.31
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-31 19:43 UTC"
+    "time": "2026-05-31 19:45 UTC"
   }
 ]
