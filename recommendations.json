@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780263398",
+    "id": "TRXUSDT_1780263420",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 67.32,
     "accumulation_score": 49.42,
     "volume_score": 26.11,
-    "obv_cmf_score": 97.06,
+    "obv_cmf_score": 97.07,
     "liquidity_score": 9.51,
     "risk_penalty": 0.0,
     "entry": 0.3505,
@@ -34,8 +34,8 @@
     "adx": 39.97,
     "cmf": 0.1535,
     "obv_norm": 0.3208,
-    "quote_volume": 30982078.12084,
-    "price_change_pct_24h": 0.83,
+    "quote_volume": 30983376.03123,
+    "price_change_pct_24h": 0.78,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 5.89,
@@ -49,10 +49,10 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-31 21:36 UTC"
+    "time": "2026-05-31 21:37 UTC"
   },
   {
-    "id": "ETHUSDT_1780263393",
+    "id": "ETHUSDT_1780263415",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -63,7 +63,7 @@
     "wyckoff_score": 59.37,
     "accumulation_score": 54.8,
     "volume_score": 5.65,
-    "obv_cmf_score": 12.88,
+    "obv_cmf_score": 12.89,
     "liquidity_score": 57.39,
     "risk_penalty": 0.0,
     "entry": 2008.54,
@@ -84,9 +84,9 @@
     "rvol": 0.45,
     "vol_ratio": 0.45,
     "adx": 50.26,
-    "cmf": -0.015,
-    "obv_norm": -0.3039,
-    "quote_volume": 280659659.128612,
+    "cmf": -0.0149,
+    "obv_norm": -0.3038,
+    "quote_volume": 280705333.75645,
     "price_change_pct_24h": -1.01,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
@@ -95,7 +95,7 @@
       "automatic_rally": 15.0,
       "secondary_test": 15.0,
       "spring": 0.0,
-      "lps": 14.01
+      "lps": 14.0
     },
     "status": "WATCH",
     "result_price": null,
