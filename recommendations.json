@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780259872",
+    "id": "TRXUSDT_1780259882",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 37.93,
     "cmf": 0.113,
     "obv_norm": 0.2774,
-    "quote_volume": 30816268.11086,
-    "price_change_pct_24h": 0.86,
+    "quote_volume": 30816619.81507,
+    "price_change_pct_24h": 0.89,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 5.31,
@@ -49,10 +49,10 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-05-31 20:37 UTC"
+    "time": "2026-05-31 20:38 UTC"
   },
   {
-    "id": "ETHUSDT_1780259867",
+    "id": "ETHUSDT_1780259878",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -84,9 +84,9 @@
     "rvol": 0.46,
     "vol_ratio": 0.46,
     "adx": 55.2,
-    "cmf": -0.0713,
+    "cmf": -0.0712,
     "obv_norm": -0.3052,
-    "quote_volume": 274320235.316535,
+    "quote_volume": 274347641.964122,
     "price_change_pct_24h": -1.17,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
