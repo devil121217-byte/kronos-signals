@@ -1,6 +1,6 @@
 [
   {
-    "id": "ETHUSDT_1780230555",
+    "id": "ETHUSDT_1780230565",
     "symbol": "ETH/USDT",
     "raw_symbol": "ETHUSDT",
     "timeframe": "1h",
@@ -12,7 +12,7 @@
     "accumulation_score": 98.22,
     "volume_score": 12.62,
     "obv_cmf_score": 82.99,
-    "liquidity_score": 50.8,
+    "liquidity_score": 50.79,
     "risk_penalty": 0.0,
     "entry": 2023.38,
     "entry_zone": "2021.024356 ~ 2025.441188",
@@ -34,7 +34,7 @@
     "adx": 29.45,
     "cmf": 0.1075,
     "obv_norm": 0.1774,
-    "quote_volume": 207217408.902288,
+    "quote_volume": 207198233.427819,
     "price_change_pct_24h": 0.21,
     "comment": "quiet accumulation box is stable, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -52,7 +52,7 @@
     "time": "2026-05-31 12:29 UTC"
   },
   {
-    "id": "SOLUSDT_1780230556",
+    "id": "SOLUSDT_1780230566",
     "symbol": "SOL/USDT",
     "raw_symbol": "SOLUSDT",
     "timeframe": "1h",
@@ -86,7 +86,7 @@
     "adx": 20.28,
     "cmf": 0.1096,
     "obv_norm": 0.1154,
-    "quote_volume": 76970323.17546,
+    "quote_volume": 76969707.46816,
     "price_change_pct_24h": 0.51,
     "comment": "quiet accumulation box is stable, late accumulation watch zone",
     "wyckoff_detail": {
@@ -104,7 +104,7 @@
     "time": "2026-05-31 12:29 UTC"
   },
   {
-    "id": "DOGEUSDT_1780230559",
+    "id": "DOGEUSDT_1780230570",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -116,7 +116,7 @@
     "accumulation_score": 59.19,
     "volume_score": 10.0,
     "obv_cmf_score": 12.33,
-    "liquidity_score": 9.83,
+    "liquidity_score": 9.82,
     "risk_penalty": 0.0,
     "entry": 0.10084,
     "entry_zone": "0.100677 ~ 0.100982",
@@ -138,8 +138,8 @@
     "adx": 27.73,
     "cmf": 0.0504,
     "obv_norm": -0.2948,
-    "quote_volume": 31444227.76085,
-    "price_change_pct_24h": 0.0,
+    "quote_volume": 31430398.11512,
+    "price_change_pct_24h": 0.04,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 2.68,
