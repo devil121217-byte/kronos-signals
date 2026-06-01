@@ -1,6 +1,6 @@
 [
   {
-    "id": "NEARUSDT_1780330341",
+    "id": "NEARUSDT_1780330350",
     "symbol": "NEAR/USDT",
     "raw_symbol": "NEARUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 23.46,
     "cmf": 0.02,
     "obv_norm": 0.3256,
-    "quote_volume": 95233772.9142,
-    "price_change_pct_24h": 3.54,
+    "quote_volume": 95261814.1689,
+    "price_change_pct_24h": 3.63,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 15.05,
