@@ -1,6 +1,6 @@
 [
   {
-    "id": "NEARUSDT_1780329709",
+    "id": "NEARUSDT_1780329719",
     "symbol": "NEAR/USDT",
     "raw_symbol": "NEARUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 46.84,
     "accumulation_score": 26.84,
     "volume_score": 45.0,
-    "obv_cmf_score": 77.34,
+    "obv_cmf_score": 77.32,
     "liquidity_score": 33.61,
     "risk_penalty": 4.32,
     "entry": 2.402,
@@ -32,10 +32,10 @@
     "rvol": 0.07,
     "vol_ratio": 0.07,
     "adx": 23.46,
-    "cmf": 0.0223,
+    "cmf": 0.0222,
     "obv_norm": 0.3347,
-    "quote_volume": 93944434.7157,
-    "price_change_pct_24h": 4.03,
+    "quote_volume": 93933674.3301,
+    "price_change_pct_24h": 3.89,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 15.05,
