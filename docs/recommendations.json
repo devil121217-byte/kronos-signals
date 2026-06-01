@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780280212",
+    "id": "TRXUSDT_1780280225",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -14,17 +14,17 @@
     "obv_cmf_score": 80.0,
     "liquidity_score": 8.81,
     "risk_penalty": 0.0,
-    "entry": 0.3509,
-    "entry_zone": "0.350521 ~ 0.350538",
+    "entry": 0.351,
+    "entry_zone": "0.350538 ~ 0.350621",
     "stop_loss": 0.341468,
-    "take_profit1": 0.369764,
-    "take_profit2": 0.379196,
-    "be_target": 0.365048,
+    "take_profit1": 0.370064,
+    "take_profit2": 0.379596,
+    "be_target": 0.365298,
     "invalidation": 0.341468,
     "breakout_level": 0.3523,
-    "sl_pct": -2.69,
-    "tp1_pct": 5.38,
-    "tp2_pct": 8.06,
+    "sl_pct": -2.72,
+    "tp1_pct": 5.43,
+    "tp2_pct": 8.15,
     "accum_high": 0.3523,
     "accum_low": 0.3418,
     "accum_bars": 64,
@@ -32,9 +32,9 @@
     "rvol": 0.09,
     "vol_ratio": 0.09,
     "adx": 51.21,
-    "cmf": 0.1551,
+    "cmf": 0.1581,
     "obv_norm": 0.489,
-    "quote_volume": 30005096.93163,
+    "quote_volume": 30006342.73505,
     "price_change_pct_24h": 1.45,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 02:16 UTC"
+    "time": "2026-06-01 02:17 UTC"
   }
 ]
