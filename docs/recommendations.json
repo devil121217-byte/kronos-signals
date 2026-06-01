@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780293772",
+    "id": "DOGEUSDT_1780293786",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -12,7 +12,7 @@
     "accumulation_score": 50.0,
     "volume_score": 15.0,
     "obv_cmf_score": 5.06,
-    "liquidity_score": 19.91,
+    "liquidity_score": 19.9,
     "risk_penalty": 0.0,
     "entry": 0.10032,
     "entry_zone": "0.100017 ~ 0.100585",
@@ -29,13 +29,13 @@
     "accum_low": 0.09646,
     "accum_bars": 96,
     "range_pct": 5.36,
-    "rvol": 0.01,
-    "vol_ratio": 0.01,
+    "rvol": 0.02,
+    "vol_ratio": 0.02,
     "adx": 23.6,
     "cmf": -0.0738,
     "obv_norm": 0.0547,
-    "quote_volume": 50000622.65023,
-    "price_change_pct_24h": -0.46,
+    "quote_volume": 49987396.49159,
+    "price_change_pct_24h": -0.43,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 3.77,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 06:02 UTC"
+    "time": "2026-06-01 06:03 UTC"
   }
 ]
