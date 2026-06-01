@@ -1683,10 +1683,10 @@
       "spring": 0.0,
       "lps": 19.34
     },
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "EXPIRED",
+    "result_price": 1.3005,
+    "result_pct": -1.67,
+    "result_time": "2026-06-01 08:44 UTC",
     "time": "2026-05-29 08:44 UTC"
   },
   {
