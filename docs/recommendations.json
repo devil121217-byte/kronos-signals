@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780348924",
+    "id": "DOGEUSDT_1780348936",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 54.64,
     "accumulation_score": 54.72,
     "volume_score": 13.2,
-    "obv_cmf_score": 18.85,
+    "obv_cmf_score": 18.84,
     "liquidity_score": 30.1,
     "risk_penalty": 0.0,
     "entry": 0.10005,
@@ -32,9 +32,9 @@
     "rvol": 0.31,
     "vol_ratio": 0.31,
     "adx": 23.74,
-    "cmf": 0.0624,
+    "cmf": 0.0623,
     "obv_norm": -0.1467,
-    "quote_volume": 79928925.78337,
+    "quote_volume": 79931545.99808,
     "price_change_pct_24h": 0.18,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
