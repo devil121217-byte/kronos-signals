@@ -2,11 +2,19 @@ name: Altcoin Signal Scanner
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'   # 매시간 실행
   workflow_dispatch:
+
+# ── 동시 배포 충돌 방지 ─────────────────────────────────────────
+# 이전 배포가 진행 중일 때 새 push가 오면 이전 것을 취소하고 새 것 진행
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: write          # Pages 배포 권한 명시
+  id-token: write       # OIDC 토큰 (Pages 배포 인증)
 
 jobs:
   scan:
@@ -33,6 +41,6 @@ jobs:
         run: |
           git config user.name "SignalBot"
           git config user.email "bot@signal"
-          git add docs/signals.json
+          git add docs/signals.json docs/recommendations.json
           git diff --staged --quiet || git commit -m "시그널 업데이트 $(date -u +'%Y-%m-%d %H:%M')"
           git push
