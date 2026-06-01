@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780281590",
+    "id": "TRXUSDT_1780281681",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -12,7 +12,7 @@
     "accumulation_score": 58.79,
     "volume_score": 30.0,
     "obv_cmf_score": 80.0,
-    "liquidity_score": 9.01,
+    "liquidity_score": 9.0,
     "risk_penalty": 0.0,
     "entry": 0.3506,
     "entry_zone": "0.350199 ~ 0.350538",
@@ -29,13 +29,13 @@
     "accum_low": 0.3418,
     "accum_bars": 64,
     "range_pct": 3.03,
-    "rvol": 0.44,
-    "vol_ratio": 0.44,
+    "rvol": 0.45,
+    "vol_ratio": 0.45,
     "adx": 49.14,
-    "cmf": 0.145,
-    "obv_norm": 0.4717,
-    "quote_volume": 30279445.53726,
-    "price_change_pct_24h": 1.42,
+    "cmf": 0.1449,
+    "obv_norm": 0.4715,
+    "quote_volume": 30263107.39687,
+    "price_change_pct_24h": 1.45,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 8.11,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 02:39 UTC"
+    "time": "2026-06-01 02:41 UTC"
   }
 ]
