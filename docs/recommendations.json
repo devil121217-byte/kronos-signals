@@ -1,18 +1,18 @@
 [
   {
-    "id": "NEARUSDT_1780331193",
+    "id": "NEARUSDT_1780331287",
     "symbol": "NEAR/USDT",
     "raw_symbol": "NEARUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "TRIGGER",
     "state_rank": 0,
-    "total_score": 45.36,
+    "total_score": 47.41,
     "wyckoff_score": 46.84,
     "accumulation_score": 26.84,
-    "volume_score": 54.32,
-    "obv_cmf_score": 72.62,
-    "liquidity_score": 34.02,
+    "volume_score": 64.73,
+    "obv_cmf_score": 72.38,
+    "liquidity_score": 34.03,
     "risk_penalty": 3.56,
     "entry": 2.391,
     "entry_zone": "2.41325 ~ 2.46225",
@@ -29,13 +29,13 @@
     "accum_low": 2.215,
     "accum_bars": 44,
     "range_pct": 10.19,
-    "rvol": 1.1,
-    "vol_ratio": 1.1,
+    "rvol": 1.15,
+    "vol_ratio": 1.15,
     "adx": 23.46,
-    "cmf": 0.0061,
-    "obv_norm": 0.3159,
-    "quote_volume": 95741777.6569,
-    "price_change_pct_24h": 4.82,
+    "cmf": 0.0053,
+    "obv_norm": 0.315,
+    "quote_volume": 95781035.9362,
+    "price_change_pct_24h": 4.41,
     "comment": "OBV and CMF confirm money flow, price is retesting the box ceiling",
     "wyckoff_detail": {
       "prior_decline": 15.05,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 16:26 UTC"
+    "time": "2026-06-01 16:28 UTC"
   }
 ]
