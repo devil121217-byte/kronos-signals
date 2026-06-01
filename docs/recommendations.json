@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780290408",
+    "id": "TRXUSDT_1780290424",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -14,17 +14,17 @@
     "obv_cmf_score": 80.0,
     "liquidity_score": 9.37,
     "risk_penalty": 0.0,
-    "entry": 0.3511,
-    "entry_zone": "0.350538 ~ 0.350775",
+    "entry": 0.351,
+    "entry_zone": "0.350538 ~ 0.350675",
     "stop_loss": 0.341516,
-    "take_profit1": 0.370268,
-    "take_profit2": 0.379852,
-    "be_target": 0.365476,
+    "take_profit1": 0.369968,
+    "take_profit2": 0.379452,
+    "be_target": 0.365226,
     "invalidation": 0.341516,
     "breakout_level": 0.3523,
-    "sl_pct": -2.73,
-    "tp1_pct": 5.46,
-    "tp2_pct": 8.19,
+    "sl_pct": -2.7,
+    "tp1_pct": 5.4,
+    "tp2_pct": 8.11,
     "accum_high": 0.3523,
     "accum_low": 0.3418,
     "accum_bars": 68,
@@ -32,9 +32,9 @@
     "rvol": 0.12,
     "vol_ratio": 0.12,
     "adx": 46.6,
-    "cmf": 0.165,
-    "obv_norm": 0.3968,
-    "quote_volume": 30779391.7766,
+    "cmf": 0.159,
+    "obv_norm": 0.3951,
+    "quote_volume": 30779058.81951,
     "price_change_pct_24h": 1.47,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
@@ -49,10 +49,10 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 05:06 UTC"
+    "time": "2026-06-01 05:07 UTC"
   },
   {
-    "id": "DOGEUSDT_1780290406",
+    "id": "DOGEUSDT_1780290422",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -63,7 +63,7 @@
     "wyckoff_score": 65.78,
     "accumulation_score": 50.0,
     "volume_score": 20.0,
-    "obv_cmf_score": 5.03,
+    "obv_cmf_score": 5.02,
     "liquidity_score": 19.0,
     "risk_penalty": 0.0,
     "entry": 0.10064,
@@ -86,8 +86,8 @@
     "adx": 23.68,
     "cmf": -0.0478,
     "obv_norm": 0.0546,
-    "quote_volume": 47952286.02099,
-    "price_change_pct_24h": -0.58,
+    "quote_volume": 47954922.22361,
+    "price_change_pct_24h": -0.56,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 2.67,
@@ -101,6 +101,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-01 05:06 UTC"
+    "time": "2026-06-01 05:07 UTC"
   }
 ]
