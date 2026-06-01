@@ -1,6 +1,6 @@
 [
   {
-    "id": "TRXUSDT_1780280313",
+    "id": "TRXUSDT_1780280330",
     "symbol": "TRX/USDT",
     "raw_symbol": "TRXUSDT",
     "timeframe": "1h",
@@ -32,10 +32,10 @@
     "rvol": 0.17,
     "vol_ratio": 0.17,
     "adx": 51.21,
-    "cmf": 0.1459,
+    "cmf": 0.1458,
     "obv_norm": 0.4829,
-    "quote_volume": 30068409.93841,
-    "price_change_pct_24h": 1.33,
+    "quote_volume": 30068915.61167,
+    "price_change_pct_24h": 1.3,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 8.11,
