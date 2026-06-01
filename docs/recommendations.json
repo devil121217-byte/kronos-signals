@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780343889",
+    "id": "DOGEUSDT_1780343903",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 27.81,
     "cmf": 0.0363,
     "obv_norm": -0.124,
-    "quote_volume": 78849345.99193,
-    "price_change_pct_24h": 0.9,
+    "quote_volume": 78849328.44794,
+    "price_change_pct_24h": 0.91,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -52,7 +52,7 @@
     "time": "2026-06-01 19:58 UTC"
   },
   {
-    "id": "TAOUSDT_1780343892",
+    "id": "TAOUSDT_1780343906",
     "symbol": "TAO/USDT",
     "raw_symbol": "TAOUSDT",
     "timeframe": "1h",
@@ -64,7 +64,7 @@
     "accumulation_score": 69.38,
     "volume_score": 63.97,
     "obv_cmf_score": 33.0,
-    "liquidity_score": 1.45,
+    "liquidity_score": 1.46,
     "risk_penalty": 0.0,
     "entry": 257.0,
     "entry_zone": "255.575 ~ 258.405237",
@@ -86,7 +86,7 @@
     "adx": 35.01,
     "cmf": 0.1591,
     "obv_norm": -0.1176,
-    "quote_volume": 21379481.35689,
+    "quote_volume": 21387198.19366,
     "price_change_pct_24h": 1.62,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
