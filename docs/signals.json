@@ -1995,10 +1995,10 @@
       "spring": 0.0,
       "lps": 16.0
     },
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "WIN",
+    "result_price": 2.748,
+    "result_pct": 15.85,
+    "result_time": "2026-06-02 03:32 UTC",
     "time": "2026-06-01 15:18 UTC"
   },
   {
