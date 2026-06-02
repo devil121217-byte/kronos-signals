@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780395237",
+    "id": "DOGEUSDT_1780395265",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 44.15,
     "cmf": 0.1159,
     "obv_norm": -0.1148,
-    "quote_volume": 83014281.9736,
-    "price_change_pct_24h": -0.68,
+    "quote_volume": 83011608.05251,
+    "price_change_pct_24h": -0.71,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 3.91,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-02 10:13 UTC"
+    "time": "2026-06-02 10:14 UTC"
   }
 ]
