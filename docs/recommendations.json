@@ -1,6 +1,6 @@
 [
   {
-    "id": "币安人生USDT_1780432075",
+    "id": "币安人生USDT_1780432096",
     "symbol": "币安人生/USDT",
     "raw_symbol": "币安人生USDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 9.52,
     "cmf": 0.2098,
     "obv_norm": 0.281,
-    "quote_volume": 27922593.78032,
-    "price_change_pct_24h": -1.46,
+    "quote_volume": 27922596.07321,
+    "price_change_pct_24h": -1.49,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-02 20:27 UTC"
+    "time": "2026-06-02 20:28 UTC"
   }
 ]
