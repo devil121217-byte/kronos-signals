@@ -1,18 +1,18 @@
 [
   {
-    "id": "ONDOUSDT_1780417943",
+    "id": "ONDOUSDT_1780418117",
     "symbol": "ONDO/USDT",
     "raw_symbol": "ONDOUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 46.94,
+    "total_score": 48.65,
     "wyckoff_score": 56.85,
     "accumulation_score": 52.26,
-    "volume_score": 66.1,
-    "obv_cmf_score": 60.05,
-    "liquidity_score": 0.75,
+    "volume_score": 74.56,
+    "obv_cmf_score": 60.14,
+    "liquidity_score": 0.78,
     "risk_penalty": 5.48,
     "entry": 0.3726,
     "entry_zone": "0.368445 ~ 0.376523",
@@ -29,14 +29,14 @@
     "accum_low": 0.3421,
     "accum_bars": 72,
     "range_pct": 13.29,
-    "rvol": 1.16,
-    "vol_ratio": 1.16,
+    "rvol": 1.21,
+    "vol_ratio": 1.21,
     "adx": 21.06,
-    "cmf": 0.1503,
-    "obv_norm": 0.0547,
-    "quote_volume": 20704873.69165,
-    "price_change_pct_24h": 6.85,
-    "comment": "RVOL 1.16x is leading price, OBV and CMF confirm money flow, late accumulation watch zone",
+    "cmf": 0.151,
+    "obv_norm": 0.0551,
+    "quote_volume": 20734456.93744,
+    "price_change_pct_24h": 6.79,
+    "comment": "RVOL 1.21x is leading price, OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 18.32,
       "selling_climax": 0.0,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-02 16:32 UTC"
+    "time": "2026-06-02 16:35 UTC"
   }
 ]
