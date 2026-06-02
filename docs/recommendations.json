@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780399422",
+    "id": "DOGEUSDT_1780399431",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -34,7 +34,7 @@
     "adx": 45.45,
     "cmf": 0.1582,
     "obv_norm": -0.1149,
-    "quote_volume": 82908746.67871,
+    "quote_volume": 82908374.75997,
     "price_change_pct_24h": -1.22,
     "comment": "quiet accumulation box is stable, late accumulation watch zone",
     "wyckoff_detail": {
