@@ -1,18 +1,18 @@
 [
   {
-    "id": "ICPUSDT_1780390121",
+    "id": "ICPUSDT_1780390195",
     "symbol": "ICP/USDT",
     "raw_symbol": "ICPUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 38.23,
-    "wyckoff_score": 33.57,
+    "total_score": 38.21,
+    "wyckoff_score": 33.55,
     "accumulation_score": 36.6,
     "volume_score": 64.38,
-    "obv_cmf_score": 73.31,
-    "liquidity_score": 1.21,
+    "obv_cmf_score": 73.2,
+    "liquidity_score": 1.23,
     "risk_penalty": 4.98,
     "entry": 2.941,
     "entry_zone": "2.910948 ~ 2.967295",
@@ -29,13 +29,13 @@
     "accum_low": 2.703,
     "accum_bars": 24,
     "range_pct": 13.06,
-    "rvol": 1.55,
-    "vol_ratio": 1.55,
+    "rvol": 1.59,
+    "vol_ratio": 1.59,
     "adx": 22.48,
-    "cmf": 0.1463,
-    "obv_norm": 0.2173,
-    "quote_volume": 21143291.67961,
-    "price_change_pct_24h": 7.69,
+    "cmf": 0.1448,
+    "obv_norm": 0.2167,
+    "quote_volume": 21168680.57585,
+    "price_change_pct_24h": 7.77,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
@@ -43,12 +43,12 @@
       "automatic_rally": 15.0,
       "secondary_test": 0.0,
       "spring": 0.0,
-      "lps": 18.57
+      "lps": 18.55
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-02 08:48 UTC"
+    "time": "2026-06-02 08:49 UTC"
   }
 ]
