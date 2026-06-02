@@ -1,6 +1,6 @@
 [
   {
-    "id": "币安人生USDT_1780430822",
+    "id": "币安人生USDT_1780430835",
     "symbol": "币安人生/USDT",
     "raw_symbol": "币安人生USDT",
     "timeframe": "1h",
@@ -29,12 +29,12 @@
     "accum_low": 0.5686,
     "accum_bars": 24,
     "range_pct": 12.68,
-    "rvol": 0.03,
-    "vol_ratio": 0.03,
+    "rvol": 0.04,
+    "vol_ratio": 0.04,
     "adx": 9.52,
     "cmf": 0.2081,
     "obv_norm": 0.2811,
-    "quote_volume": 27976116.53145,
+    "quote_volume": 27976749.65815,
     "price_change_pct_24h": -2.39,
     "comment": "OBV and CMF confirm money flow, late accumulation watch zone",
     "wyckoff_detail": {
