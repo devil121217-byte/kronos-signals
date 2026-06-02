@@ -1,6 +1,6 @@
 [
   {
-    "id": "DOGEUSDT_1780373248",
+    "id": "DOGEUSDT_1780373265",
     "symbol": "DOGE/USDT",
     "raw_symbol": "DOGEUSDT",
     "timeframe": "1h",
@@ -12,7 +12,7 @@
     "accumulation_score": 70.0,
     "volume_score": 31.12,
     "obv_cmf_score": 24.79,
-    "liquidity_score": 30.78,
+    "liquidity_score": 30.77,
     "risk_penalty": 0.0,
     "entry": 0.10064,
     "entry_zone": "0.10053 ~ 0.100935",
@@ -34,8 +34,8 @@
     "adx": 19.1,
     "cmf": 0.1754,
     "obv_norm": -0.0253,
-    "quote_volume": 82460186.44249,
-    "price_change_pct_24h": -0.28,
+    "quote_volume": 82452710.51694,
+    "price_change_pct_24h": -0.22,
     "comment": "quiet accumulation box is stable, late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
