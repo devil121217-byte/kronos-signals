@@ -1,6 +1,6 @@
 [
   {
-    "id": "TONUSDT_1780473926",
+    "id": "TONUSDT_1780473941",
     "symbol": "TON/USDT",
     "raw_symbol": "TONUSDT",
     "timeframe": "1h",
@@ -11,7 +11,7 @@
     "wyckoff_score": 67.35,
     "accumulation_score": 43.08,
     "volume_score": 16.95,
-    "obv_cmf_score": 12.51,
+    "obv_cmf_score": 12.52,
     "liquidity_score": 19.36,
     "risk_penalty": 0.0,
     "entry": 2.022,
@@ -34,7 +34,7 @@
     "adx": 17.01,
     "cmf": 0.0515,
     "obv_norm": -0.2048,
-    "quote_volume": 48765481.40347,
+    "quote_volume": 48759231.34974,
     "price_change_pct_24h": -0.34,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
