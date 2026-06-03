@@ -1,18 +1,18 @@
 [
   {
-    "id": "SUIUSDT_1780529503",
+    "id": "SUIUSDT_1780529548",
     "symbol": "SUI/USDT",
     "raw_symbol": "SUIUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "READY",
     "state_rank": 2,
-    "total_score": 39.33,
-    "wyckoff_score": 49.95,
+    "total_score": 39.32,
+    "wyckoff_score": 49.94,
     "accumulation_score": 56.55,
     "volume_score": 40.0,
-    "obv_cmf_score": 48.3,
-    "liquidity_score": 29.62,
+    "obv_cmf_score": 48.26,
+    "liquidity_score": 29.58,
     "risk_penalty": 8.0,
     "entry": 0.8319,
     "entry_zone": "0.825152 ~ 0.837804",
@@ -29,13 +29,13 @@
     "accum_low": 0.7904,
     "accum_bars": 32,
     "range_pct": 6.5,
-    "rvol": 0.61,
-    "vol_ratio": 0.61,
+    "rvol": 0.63,
+    "vol_ratio": 0.63,
     "adx": 18.5,
-    "cmf": 0.2258,
-    "obv_norm": 0.095,
-    "quote_volume": 78173384.06006,
-    "price_change_pct_24h": 4.89,
+    "cmf": 0.2259,
+    "obv_norm": 0.0948,
+    "quote_volume": 78043557.09295,
+    "price_change_pct_24h": 4.75,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 8.63,
@@ -43,12 +43,12 @@
       "automatic_rally": 9.79,
       "secondary_test": 15.0,
       "spring": 0.0,
-      "lps": 16.52
+      "lps": 16.51
     },
     "status": "WATCH",
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-03 23:31 UTC"
+    "time": "2026-06-03 23:32 UTC"
   }
 ]
