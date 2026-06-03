@@ -1,17 +1,17 @@
 [
   {
-    "id": "SUIUSDT_1780526491",
+    "id": "SUIUSDT_1780526535",
     "symbol": "SUI/USDT",
     "raw_symbol": "SUIUSDT",
     "timeframe": "1h",
     "direction": "LONG",
     "state": "TRIGGER",
     "state_rank": 0,
-    "total_score": 45.92,
+    "total_score": 46.32,
     "wyckoff_score": 46.06,
     "accumulation_score": 54.46,
-    "volume_score": 54.74,
-    "obv_cmf_score": 62.91,
+    "volume_score": 56.75,
+    "obv_cmf_score": 62.86,
     "liquidity_score": 31.03,
     "risk_penalty": 8.0,
     "entry": 0.8371,
@@ -29,13 +29,13 @@
     "accum_low": 0.7904,
     "accum_bars": 32,
     "range_pct": 7.13,
-    "rvol": 1.1,
-    "vol_ratio": 1.1,
+    "rvol": 1.11,
+    "vol_ratio": 1.11,
     "adx": 20.58,
-    "cmf": 0.2068,
-    "obv_norm": 0.0997,
-    "quote_volume": 83439956.21279,
-    "price_change_pct_24h": 2.62,
+    "cmf": 0.2067,
+    "obv_norm": 0.0996,
+    "quote_volume": 83439135.86281,
+    "price_change_pct_24h": 2.73,
     "comment": "OBV and CMF confirm money flow, price is retesting the box ceiling",
     "wyckoff_detail": {
       "prior_decline": 5.82,
@@ -49,6 +49,6 @@
     "result_price": null,
     "result_pct": null,
     "result_time": null,
-    "time": "2026-06-03 22:41 UTC"
+    "time": "2026-06-03 22:42 UTC"
   }
 ]
