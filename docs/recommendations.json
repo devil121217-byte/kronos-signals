@@ -1,6 +1,6 @@
 [
   {
-    "id": "TONUSDT_1780505948",
+    "id": "TONUSDT_1780505966",
     "symbol": "TON/USDT",
     "raw_symbol": "TONUSDT",
     "timeframe": "1h",
@@ -34,8 +34,8 @@
     "adx": 20.3,
     "cmf": -0.0495,
     "obv_norm": -0.0399,
-    "quote_volume": 47085124.44034,
-    "price_change_pct_24h": 2.98,
+    "quote_volume": 47084553.49009,
+    "price_change_pct_24h": 2.87,
     "comment": "late accumulation watch zone",
     "wyckoff_detail": {
       "prior_decline": 0.0,
