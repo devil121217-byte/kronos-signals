@@ -1,6 +1,6 @@
 [
   {
-    "id": "TONUSDT_1780498701",
+    "id": "TONUSDT_1780498711",
     "symbol": "TON/USDT",
     "raw_symbol": "TONUSDT",
     "timeframe": "1h",
@@ -32,10 +32,10 @@
     "rvol": 1.39,
     "vol_ratio": 1.39,
     "adx": 20.21,
-    "cmf": 0.0935,
+    "cmf": 0.0936,
     "obv_norm": -0.0281,
-    "quote_volume": 51188984.41859,
-    "price_change_pct_24h": 3.79,
+    "quote_volume": 51190816.25962,
+    "price_change_pct_24h": 3.94,
     "comment": "price is retesting the box ceiling",
     "wyckoff_detail": {
       "prior_decline": 0.0,
