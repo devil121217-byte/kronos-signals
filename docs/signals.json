@@ -2099,10 +2099,10 @@
       "spring": 0.0,
       "lps": 16.0
     },
-    "status": "OPEN",
-    "result_price": null,
-    "result_pct": null,
-    "result_time": null,
+    "status": "LOSS",
+    "result_price": 0.3356,
+    "result_pct": -10.12,
+    "result_time": "2026-06-05 15:16 UTC",
     "time": "2026-06-02 16:42 UTC"
   }
 ]
