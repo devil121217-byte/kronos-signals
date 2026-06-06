@@ -23,7 +23,8 @@
     "result_price": 77047.79,
     "result_pct": -1.54,
     "result_time": "2026-04-27 15:20 UTC",
-    "time": "2026-04-26 18:53 UTC"
+    "time": "2026-04-26 18:53 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "SOLUSDT_1777229941",
@@ -49,7 +50,8 @@
     "result_price": 85.59,
     "result_pct": -1.41,
     "result_time": "2026-04-27 06:34 UTC",
-    "time": "2026-04-26 18:59 UTC"
+    "time": "2026-04-26 18:59 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ZECUSDT_1777231195",
@@ -75,7 +77,8 @@
     "result_price": 346.61,
     "result_pct": -4.21,
     "result_time": "2026-04-28 02:49 UTC",
-    "time": "2026-04-26 19:19 UTC"
+    "time": "2026-04-26 19:19 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BNBUSDT_1777233063",
@@ -101,7 +104,8 @@
     "result_price": 626.0,
     "result_pct": -1.52,
     "result_time": "2026-04-27 06:34 UTC",
-    "time": "2026-04-26 19:51 UTC"
+    "time": "2026-04-26 19:51 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "XRPUSDT_1777251447",
@@ -127,7 +131,8 @@
     "result_price": 1.4155,
     "result_pct": -1.67,
     "result_time": "2026-04-27 06:34 UTC",
-    "time": "2026-04-27 00:57 UTC"
+    "time": "2026-04-27 00:57 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ADAUSDT_1777267953",
@@ -153,7 +158,8 @@
     "result_price": 0.2493,
     "result_pct": -0.28,
     "result_time": "2026-04-29 05:36 UTC",
-    "time": "2026-04-27 05:32 UTC"
+    "time": "2026-04-27 05:32 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ZECUSDT_1777350836",
@@ -179,7 +185,8 @@
     "result_price": 328.6,
     "result_pct": 4.28,
     "result_time": "2026-04-30 04:34 UTC",
-    "time": "2026-04-28 04:33 UTC"
+    "time": "2026-04-28 04:33 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "DOGEUSDT_1777434383",
@@ -205,7 +212,8 @@
     "result_price": 0.10964,
     "result_pct": 8.3,
     "result_time": "2026-04-29 09:52 UTC",
-    "time": "2026-04-29 03:46 UTC"
+    "time": "2026-04-29 03:46 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ETHUSDT_1777437522",
@@ -231,7 +239,8 @@
     "result_price": 2234.25,
     "result_pct": -4.12,
     "result_time": "2026-04-29 18:12 UTC",
-    "time": "2026-04-29 04:38 UTC"
+    "time": "2026-04-29 04:38 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PEPEUSDT_1777438168",
@@ -257,7 +266,8 @@
     "result_price": 3.76e-06,
     "result_pct": -4.57,
     "result_time": "2026-04-29 18:12 UTC",
-    "time": "2026-04-29 04:49 UTC"
+    "time": "2026-04-29 04:49 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PLUMEUSDT_1777470770",
@@ -283,7 +293,8 @@
     "result_price": 0.01154,
     "result_pct": 5.18,
     "result_time": "2026-05-01 13:53 UTC",
-    "time": "2026-04-29 13:52 UTC"
+    "time": "2026-04-29 13:52 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "DOGEUSDT_1777599577",
@@ -309,7 +320,8 @@
     "result_price": 0.10764,
     "result_pct": -0.55,
     "result_time": "2026-05-03 01:39 UTC",
-    "time": "2026-05-01 01:39 UTC"
+    "time": "2026-05-01 01:39 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PEPEUSDT_1777606117",
@@ -335,7 +347,8 @@
     "result_price": 3.94e-06,
     "result_pct": -0.76,
     "result_time": "2026-05-03 03:28 UTC",
-    "time": "2026-05-01 03:28 UTC"
+    "time": "2026-05-01 03:28 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "TRXUSDT_1777697311",
@@ -361,7 +374,8 @@
     "result_price": 0.3384,
     "result_pct": 3.2,
     "result_time": "2026-05-03 05:32 UTC",
-    "time": "2026-05-02 04:48 UTC"
+    "time": "2026-05-02 04:48 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "SOLUSDT_1777758069",
@@ -387,7 +401,8 @@
     "result_price": 84.41,
     "result_pct": -0.19,
     "result_time": "2026-05-04 21:45 UTC",
-    "time": "2026-05-02 21:41 UTC"
+    "time": "2026-05-02 21:41 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BTCUSDT_1777758380",
@@ -413,7 +428,8 @@
     "result_price": 80344.56,
     "result_pct": 1.92,
     "result_time": "2026-05-04 21:50 UTC",
-    "time": "2026-05-02 21:46 UTC"
+    "time": "2026-05-02 21:46 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "DOGEUSDT_1777848514",
@@ -439,7 +455,8 @@
     "result_price": 0.11439,
     "result_pct": 4.43,
     "result_time": "2026-05-05 21:49 UTC",
-    "time": "2026-05-03 22:48 UTC"
+    "time": "2026-05-03 22:48 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "XRPUSDT_1777854119",
@@ -465,7 +482,8 @@
     "result_price": 1.41,
     "result_pct": -1.87,
     "result_time": "2026-05-04 02:00 UTC",
-    "time": "2026-05-04 00:21 UTC"
+    "time": "2026-05-04 00:21 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PEPEUSDT_1777854122",
@@ -491,7 +509,8 @@
     "result_price": 4.06e-06,
     "result_pct": -4.1,
     "result_time": "2026-05-04 02:00 UTC",
-    "time": "2026-05-04 00:22 UTC"
+    "time": "2026-05-04 00:22 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PENGUUSDT_1777859096",
@@ -517,7 +536,8 @@
     "result_price": 0.011651,
     "result_pct": 14.32,
     "result_time": "2026-05-05 13:43 UTC",
-    "time": "2026-05-04 01:44 UTC"
+    "time": "2026-05-04 01:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "PEPEUSDT_1777859718",
@@ -1089,7 +1109,8 @@
     "result_price": 1.4794,
     "result_pct": 3.31,
     "result_time": "2026-05-10 17:04 UTC",
-    "time": "2026-05-10 13:42 UTC"
+    "time": "2026-05-10 13:42 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BNBUSDT_1778427689",
@@ -1115,7 +1136,8 @@
     "result_price": 652.71,
     "result_pct": -0.33,
     "result_time": "2026-05-12 15:45 UTC",
-    "time": "2026-05-10 15:41 UTC"
+    "time": "2026-05-10 15:41 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "DOGEUSDT_1778430488",
@@ -1141,7 +1163,8 @@
     "result_price": 0.10854,
     "result_pct": -0.85,
     "result_time": "2026-05-12 16:32 UTC",
-    "time": "2026-05-10 16:28 UTC"
+    "time": "2026-05-10 16:28 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "LUNCUSDT_1778485443",
@@ -1167,7 +1190,8 @@
     "result_price": 9.393e-05,
     "result_pct": -8.51,
     "result_time": "2026-05-12 16:53 UTC",
-    "time": "2026-05-11 07:44 UTC"
+    "time": "2026-05-11 07:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "SOLUSDT_1778516847",
@@ -1193,7 +1217,8 @@
     "result_price": 93.78,
     "result_pct": -3.87,
     "result_time": "2026-05-12 15:24 UTC",
-    "time": "2026-05-11 16:27 UTC"
+    "time": "2026-05-11 16:27 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "NEARUSDT_1778571303",
@@ -1219,7 +1244,8 @@
     "result_price": 1.569,
     "result_pct": -0.32,
     "result_time": "2026-05-15 09:41 UTC",
-    "time": "2026-05-12 07:35 UTC"
+    "time": "2026-05-12 07:35 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ZECUSDT_1778624532",
@@ -1245,7 +1271,8 @@
     "result_price": 528.36,
     "result_pct": -7.01,
     "result_time": "2026-05-14 01:37 UTC",
-    "time": "2026-05-12 22:22 UTC"
+    "time": "2026-05-12 22:22 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "LAYERUSDT_1778824311",
@@ -1271,7 +1298,8 @@
     "result_price": 0.0944,
     "result_pct": 0.94,
     "result_time": "2026-05-17 05:53 UTC",
-    "time": "2026-05-15 05:51 UTC"
+    "time": "2026-05-15 05:51 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BTCUSDT_1778851922",
@@ -1297,7 +1325,8 @@
     "result_price": 78250.0,
     "result_pct": 1.94,
     "result_time": "2026-05-17 13:32 UTC",
-    "time": "2026-05-15 13:32 UTC"
+    "time": "2026-05-15 13:32 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "TONUSDT_1778851930",
@@ -1323,7 +1352,8 @@
     "result_price": 1.949,
     "result_pct": 3.85,
     "result_time": "2026-05-17 13:32 UTC",
-    "time": "2026-05-15 13:32 UTC"
+    "time": "2026-05-15 13:32 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "NEARUSDT_1778852634",
@@ -1349,7 +1379,8 @@
     "result_price": 1.542,
     "result_pct": -1.11,
     "result_time": "2026-05-17 13:47 UTC",
-    "time": "2026-05-15 13:43 UTC"
+    "time": "2026-05-15 13:43 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "LTCUSDT_1778852906",
@@ -1375,7 +1406,8 @@
     "result_price": 56.14,
     "result_pct": 1.73,
     "result_time": "2026-05-17 13:53 UTC",
-    "time": "2026-05-15 13:48 UTC"
+    "time": "2026-05-15 13:48 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "TRXUSDT_1779017901",
@@ -1401,7 +1433,8 @@
     "result_price": 0.355,
     "result_pct": -0.28,
     "result_time": "2026-05-19 11:38 UTC",
-    "time": "2026-05-17 11:38 UTC"
+    "time": "2026-05-17 11:38 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "ETHUSDT_1779060548",
@@ -1427,7 +1460,8 @@
     "result_price": 2106.63,
     "result_pct": 2.95,
     "result_time": "2026-05-18 14:36 UTC",
-    "time": "2026-05-17 23:29 UTC"
+    "time": "2026-05-17 23:29 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "SOLUSDT_1779060851",
@@ -1453,7 +1487,8 @@
     "result_price": 86.75,
     "result_pct": -1.08,
     "result_time": "2026-05-21 01:13 UTC",
-    "time": "2026-05-17 23:34 UTC"
+    "time": "2026-05-17 23:34 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "XRPUSDT_1779061177",
@@ -1479,7 +1514,8 @@
     "result_price": 1.3786,
     "result_pct": 1.84,
     "result_time": "2026-05-21 01:13 UTC",
-    "time": "2026-05-17 23:39 UTC"
+    "time": "2026-05-17 23:39 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BTCUSDT_1779061490",
@@ -1505,7 +1541,8 @@
     "result_price": 78054.02,
     "result_pct": -1.07,
     "result_time": "2026-05-21 01:13 UTC",
-    "time": "2026-05-17 23:44 UTC"
+    "time": "2026-05-17 23:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "DOGEUSDT_1779061493",
@@ -1531,7 +1568,8 @@
     "result_price": 0.10465,
     "result_pct": 2.55,
     "result_time": "2026-05-21 01:13 UTC",
-    "time": "2026-05-17 23:44 UTC"
+    "time": "2026-05-17 23:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "BNBUSDT_1779061494",
@@ -1557,7 +1595,8 @@
     "result_price": 653.63,
     "result_pct": -1.37,
     "result_time": "2026-05-21 01:13 UTC",
-    "time": "2026-05-17 23:44 UTC"
+    "time": "2026-05-17 23:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "SUIUSDT_1779061495",
@@ -1583,7 +1622,8 @@
     "result_price": 1.0979,
     "result_pct": -6.63,
     "result_time": "2026-05-19 07:52 UTC",
-    "time": "2026-05-17 23:44 UTC"
+    "time": "2026-05-17 23:44 UTC",
+    "telegram_result_sent": true
   },
   {
     "id": "LINKUSDT_1779061498",
